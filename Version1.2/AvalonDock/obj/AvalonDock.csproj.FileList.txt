@@ -1,0 +1,12 @@
+.\bin\Debug\AvalonDock.dll
+.\bin\Debug\AvalonDock.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\AvalonDock.Properties.Resources.resources
+obj\Debug\AvalonDock.csproj.GenerateResource.Cache
+obj\Debug\AvalonDock.dll
+obj\Debug\AvalonDock.pdb
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2005\Projects\AvalonDock\AvalonDock\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2005\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock_MarkupCompile.cache
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2005\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock_MarkupCompile.lref
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2005\Projects\AvalonDock\AvalonDock\obj\Debug\themes\generic.baml
+obj\Debug\AvalonDock.g.resources

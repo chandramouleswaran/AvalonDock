@@ -1,0 +1,160 @@
+﻿<Window x:Class="AvalonDockTest.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:ad="clr-namespace:AvalonDock;assembly=AvalonDock"
+    Title="AvalonDockTest" Height="500" Width="500"
+    >
+    <ad:DockingManager>
+		  <ad:ResizingPanel Orientation="Vertical">
+			  <ad:ResizingPanel Orientation="Horizontal">
+				  <ad:DockablePane ad:ResizingPanel.ResizeWidth="70" ad:ResizingPanel.ResizeHeight="70">
+					  <ad:DockableContent Title="Proprietà1">
+						  <WrapPanel>
+							  <TextBox></TextBox>
+							  <Button>Proprietà</Button>
+							  <TextBox></TextBox>
+							  <Button>Proprietà</Button>
+							  <TextBox></TextBox>
+							  <TextBox></TextBox>
+							  <Button>Proprietà</Button>
+							  <TextBox></TextBox>
+						  </WrapPanel>
+					  </ad:DockableContent>
+					  <ad:DockableContent Title="Indice1">
+						  <Button>Indice</Button>
+					  </ad:DockableContent>
+					  <ad:DockableContent Title="Visualizzazione classi1">
+						  <Button>Visualizzazione classi</Button>
+					  </ad:DockableContent>
+				  </ad:DockablePane>
+				  <!--<ad:ResizingPanelSplitter Width="4"/>-->
+				  <ad:ResizingPanel Orientation="Vertical" ad:ResizingPanel.ResizeWidth="70" ad:ResizingPanel.ResizeHeight="70">
+                    <ad:DockablePane ad:ResizingPanel.ResizeWidth="70" ad:ResizingPanel.ResizeHeight="70">
+						  <ad:DockableContent Title="Proprietà2">
+							  <WrapPanel>
+								  <TextBox></TextBox>
+								  <Button>Proprietà</Button>
+								  <TextBox></TextBox>
+								  <Button>Proprietà</Button>
+								  <TextBox></TextBox>
+								  <TextBox></TextBox>
+								  <Button>Proprietà</Button>
+								  <TextBox></TextBox>
+							  </WrapPanel>
+						  </ad:DockableContent>
+						  <ad:DockableContent Title="Indice2">
+							  <Button>Indice</Button>
+						  </ad:DockableContent>
+						  <ad:DockableContent Title="Visualizzazione class2i">
+							  <Button>Visualizzazione classi</Button>
+						  </ad:DockableContent>
+					</ad:DockablePane>
+					<!--<ad:ResizingPanelSplitter Height="4"/>-->
+                    <ad:DocumentPane>
+                        <ad:DockableContent Title="File1.txt">
+                            <WrapPanel>
+                                <TextBox></TextBox>
+                                <Button>Proprietà</Button>
+                                <TextBox></TextBox>
+                                <Button>Proprietà</Button>
+                                <TextBox></TextBox>
+                                <TextBox></TextBox>
+                                <Button>Proprietà</Button>
+                                <TextBox></TextBox>
+                            </WrapPanel>
+                        </ad:DockableContent>
+                        <ad:DockableContent Title="File2.sfd">
+                            <Button>Indice</Button>
+                        </ad:DockableContent>
+                        <ad:DockableContent Title="File3.cml">
+                            <Button>Visualizzazione classi</Button>
+                        </ad:DockableContent>
+                        <ad:DockableContent Title="File4.txt">
+                            <WrapPanel>
+                                <TextBox></TextBox>
+                                <Button>Proprietà</Button>
+                                <TextBox></TextBox>
+                                <Button>Proprietà</Button>
+                                <TextBox></TextBox>
+                                <TextBox></TextBox>
+                                <Button>Proprietà</Button>
+                                <TextBox></TextBox>
+                            </WrapPanel>
+                        </ad:DockableContent>
+                        <ad:DockableContent Title="File5.sfd">
+                            <Button>Indice</Button>
+                        </ad:DockableContent>
+                        <ad:DockableContent Title="File6.cml">
+                            <Button>Visualizzazione classi</Button>
+                        </ad:DockableContent>
+                    </ad:DocumentPane>
+                    <!--<ad:ResizingPanelSplitter Height="4"/>-->
+                    <ad:DockablePane ad:ResizingPanel.ResizeWidth="70" ad:ResizingPanel.ResizeHeight="70">
+						  <ad:DockableContent Title="Proprietà3">
+							  <WrapPanel>
+								  <TextBox></TextBox>
+								  <Button>Proprietà</Button>
+								  <TextBox></TextBox>
+								  <Button>Proprietà</Button>
+								  <TextBox></TextBox>
+								  <TextBox></TextBox>
+								  <Button>Proprietà</Button>
+								  <TextBox></TextBox>
+							  </WrapPanel>
+						  </ad:DockableContent>
+						  <ad:DockableContent Title="Indice3">
+							  <Button>Indice</Button>
+						  </ad:DockableContent>
+						  <ad:DockableContent Title="Visualizzazione classi3">
+							  <Button>Visualizzazione classi</Button>
+						  </ad:DockableContent>
+					  </ad:DockablePane>
+				  </ad:ResizingPanel>
+			  </ad:ResizingPanel>
+			  <!--<ad:ResizingPanelSplitter Height="4"/>-->
+			  <ad:ResizingPanel Orientation="Horizontal" ad:ResizingPanel.ResizeWidth="70" ad:ResizingPanel.ResizeHeight="70">
+				  <ad:DockablePane ad:ResizingPanel.ResizeWidth="70" ad:ResizingPanel.ResizeHeight="70">
+					  <ad:DockableContent Title="Proprietà4">
+						  <WrapPanel>
+							  <TextBox></TextBox>
+							  <Button>Proprietà</Button>
+							  <TextBox></TextBox>
+							  <Button>Proprietà</Button>
+							  <TextBox></TextBox>
+							  <TextBox></TextBox>
+							  <Button>Proprietà</Button>
+							  <TextBox></TextBox>
+						  </WrapPanel>
+					  </ad:DockableContent>
+					  <ad:DockableContent Title="Indice4">
+						  <Button>Indice</Button>
+					  </ad:DockableContent>
+					  <ad:DockableContent Title="Visualizzazione classi4">
+						  <Button>Visualizzazione classi</Button>
+					  </ad:DockableContent>
+				  </ad:DockablePane>
+				  <!--<ad:ResizingPanelSplitter Width="4"/>-->
+				  <ad:DockablePane ad:ResizingPanel.ResizeWidth="70" ad:ResizingPanel.ResizeHeight="70">
+					  <ad:DockableContent Title="Proprietà5">
+						  <WrapPanel>
+							  <TextBox></TextBox>
+							  <Button>Proprietà</Button>
+							  <TextBox></TextBox>
+							  <Button>Proprietà</Button>
+							  <TextBox></TextBox>
+							  <TextBox></TextBox>
+							  <Button>Proprietà</Button>
+							  <TextBox></TextBox>
+						  </WrapPanel>
+					  </ad:DockableContent>
+					  <ad:DockableContent Title="Indice5">
+						  <Button>Indice</Button>
+					  </ad:DockableContent>
+					  <ad:DockableContent Title="Visualizzazione classi5">
+						  <Button>Visualizzazione classi</Button>
+					  </ad:DockableContent>
+				  </ad:DockablePane>
+			  </ad:ResizingPanel>
+		  </ad:ResizingPanel>
+    </ad:DockingManager>
+</Window>

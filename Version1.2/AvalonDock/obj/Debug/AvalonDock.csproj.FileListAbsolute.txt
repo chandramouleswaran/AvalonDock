@@ -1,0 +1,143 @@
+D:\Temp\AvalonDock_Alpha\AvalonDock\bin\Debug\AvalonDock.dll
+D:\Temp\AvalonDock_Alpha\AvalonDock\bin\Debug\AvalonDock.pdb
+D:\Temp\AvalonDock_Alpha\AvalonDock\obj\Debug\ResolveAssemblyReference.cache
+D:\Temp\AvalonDock_Alpha\AvalonDock\obj\Debug\Resources\Brushes.baml
+D:\Temp\AvalonDock_Alpha\AvalonDock\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Temp\AvalonDock_Alpha\AvalonDock\obj\Debug\AvalonDock_MarkupCompile.cache
+D:\Temp\AvalonDock_Alpha\AvalonDock\obj\Debug\AvalonDock_MarkupCompile.lref
+D:\Temp\AvalonDock_Alpha\AvalonDock\obj\Debug\Resources\Common.baml
+D:\Temp\AvalonDock_Alpha\AvalonDock\obj\Debug\Resources\DockablePaneStyles.baml
+D:\Temp\AvalonDock_Alpha\AvalonDock\obj\Debug\Resources\DockingManagerStyles.baml
+D:\Temp\AvalonDock_Alpha\AvalonDock\obj\Debug\Resources\DocumentPaneStyles.baml
+D:\Temp\AvalonDock_Alpha\AvalonDock\obj\Debug\Resources\FloatingWindowStyle.baml
+D:\Temp\AvalonDock_Alpha\AvalonDock\obj\Debug\Resources\NavigatorWindowStyle.baml
+D:\Temp\AvalonDock_Alpha\AvalonDock\obj\Debug\Resources\OverlayWindowStyle.baml
+D:\Temp\AvalonDock_Alpha\AvalonDock\obj\Debug\themes\generic.baml
+D:\Temp\AvalonDock_Alpha\AvalonDock\obj\Debug\AvalonDock.g.resources
+D:\Temp\AvalonDock_Alpha\AvalonDock\obj\Debug\AvalonDock.Properties.Resources.resources
+D:\Temp\AvalonDock_Alpha\AvalonDock\obj\Debug\AvalonDock.csproj.GenerateResource.Cache
+D:\Temp\AvalonDock_Alpha\AvalonDock\obj\Debug\AvalonDock.dll
+D:\Temp\AvalonDock_Alpha\AvalonDock\obj\Debug\AvalonDock.pdb
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\bin\Debug\AvalonDock.dll
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\bin\Debug\AvalonDock.pdb
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\Brushes.baml
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock_MarkupCompile.cache
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock_MarkupCompile.lref
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\Common.baml
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\DockablePaneStyles.baml
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\DockingManagerStyles.baml
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\DocumentPaneStyles.baml
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\FloatingWindowStyle.baml
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\NavigatorWindowStyle.baml
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\OverlayWindowStyle.baml
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\themes\generic.baml
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock.g.resources
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock.Properties.Resources.resources
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock.csproj.GenerateResource.Cache
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock.dll
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock.pdb
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\ManagedContentStyle.baml
+D:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\bin\Debug\AvalonDock.dll
+D:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\bin\Debug\AvalonDock.pdb
+D:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\Brushes.baml
+D:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock_MarkupCompile.cache
+D:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock_MarkupCompile.lref
+D:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\Common.baml
+D:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\DockablePaneStyles.baml
+D:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\DockingManagerStyles.baml
+D:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\DocumentPaneStyles.baml
+D:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\FloatingWindowStyle.baml
+D:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\ManagedContentStyle.baml
+D:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\NavigatorWindowStyle.baml
+D:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\OverlayWindowStyle.baml
+D:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\themes\generic.baml
+D:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock.g.resources
+D:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock.Properties.Resources.resources
+D:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock.csproj.GenerateResource.Cache
+D:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock.dll
+D:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock.pdb
+D:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\themes\aero.normalcolor.baml
+D:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\themes\aero.normalcolor.brushes.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\bin\Debug\AvalonDock.dll
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\bin\Debug\AvalonDock.pdb
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock_MarkupCompile.cache
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock_MarkupCompile.lref
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\Brushes.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\Common.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\DockablePaneStyles.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\DockingManagerStyles.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\DocumentPaneStyles.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\FloatingWindowStyle.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\ManagedContentStyle.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\NavigatorWindowStyle.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\OverlayWindowStyle.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\themes\aero.normalcolor.brushes.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\themes\aero.normalcolor.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\themes\generic.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock.g.resources
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock.Properties.Resources.resources
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock.csproj.GenerateResource.Cache
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock.dll
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock.pdb
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDock\bin\Debug\AvalonDock.dll
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDock\bin\Debug\AvalonDock.pdb
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDock\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDock\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDock\obj\Debug\AvalonDock_MarkupCompile.cache
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDock\obj\Debug\AvalonDock_MarkupCompile.lref
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDock\obj\Debug\Resources\Brushes.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDock\obj\Debug\Resources\Common.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDock\obj\Debug\Resources\DockablePaneStyles.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDock\obj\Debug\Resources\DockingManagerStyles.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDock\obj\Debug\Resources\DocumentPaneStyles.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDock\obj\Debug\Resources\FloatingWindowStyle.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDock\obj\Debug\Resources\ManagedContentStyle.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDock\obj\Debug\Resources\NavigatorWindowStyle.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDock\obj\Debug\Resources\OverlayWindowStyle.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDock\obj\Debug\themes\aero.normalcolor.brushes.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDock\obj\Debug\themes\aero.normalcolor.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDock\obj\Debug\themes\generic.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDock\obj\Debug\AvalonDock.g.resources
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDock\obj\Debug\AvalonDock.Properties.Resources.resources
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDock\obj\Debug\AvalonDock.csproj.GenerateResource.Cache
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDock\obj\Debug\AvalonDock.dll
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDock\obj\Debug\AvalonDock.pdb
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\DocumentNavigatorWindowStyle.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\themes\classic.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\themes\classic.brushes.baml
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\bin\Debug\AvalonDock.dll
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\bin\Debug\AvalonDock.pdb
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock_MarkupCompile.cache
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock_MarkupCompile.lref
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\Brushes.baml
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\Common.baml
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\DockablePaneStyles.baml
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\DockingManagerStyles.baml
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\DocumentNavigatorWindowStyle.baml
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\DocumentPaneStyles.baml
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\FloatingWindowStyle.baml
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\ManagedContentStyle.baml
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\NavigatorWindowStyle.baml
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\Resources\OverlayWindowStyle.baml
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\themes\aero.normalcolor.brushes.baml
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\themes\aero.normalcolor.baml
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\themes\classic.brushes.baml
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\themes\generic.baml
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock.g.resources
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock.Properties.Resources.resources
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock.csproj.GenerateResource.Cache
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock.dll
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\AvalonDock.pdb
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\themes\aero.normalcolor.brushes.g.cs
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\themes\classic.baml
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\themes\luna.normalcolor.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\themes\aero.normalcolor.brushes.g.cs
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock\obj\Debug\themes\luna.normalcolor.baml

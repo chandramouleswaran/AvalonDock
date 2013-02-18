@@ -1,0 +1,22 @@
+﻿<ad:DockableContent x:Class="Sample1.StatisticsPane"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:ad="clr-namespace:AvalonDock;assembly=AvalonDock"
+             Title="Statistics"
+             mc:Ignorable="d" d:DesignHeight="168" d:DesignWidth="357">
+    <Grid>
+        <!--<DataGrid x:Name="gridStats" ItemsSource="{Binding Stats}" IsReadOnly="True"/>-->
+        <ListView ItemsSource="{Binding Stats}" >
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}"/>
+                    <GridViewColumn Header="LineCount" DisplayMemberBinding="{Binding LineCount}"/>
+                    <GridViewColumn Header="WordsCount" DisplayMemberBinding="{Binding WordsCount}"/>
+                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</ad:DockableContent>

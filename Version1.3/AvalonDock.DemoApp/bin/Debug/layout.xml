@@ -1,0 +1,31 @@
+<DockingManager version="1.3.0">
+    <ResizingPanel ResizeWidth="*" ResizeHeight="*" EffectiveSize="955,488" Orientation="Horizontal">
+        <DockablePane ResizeWidth="207" ResizeHeight="136.666666666667" EffectiveSize="173,136.666666666667" ID="67ed47ae-fd0e-4fbb-a095-7ee29e3dd21e" Anchor="Left" IsAutoHidden="true">
+            <DockableContent Name="Content1" FloatingWindowSize="491,409" ChildIndex="0" Width="342" Height="314" Anchor="Left" State="Docked" />
+            <DockableContent Name="Content4" FloatingWindowSize="491,409" ChildIndex="0" Width="342" Height="314" Anchor="Left" State="Docked" />
+        </DockablePane>
+        <ResizingPanel ResizeWidth="*" ResizeHeight="*" EffectiveSize="730,287" Orientation="Horizontal">
+            <DockablePane ResizeWidth="252" ResizeHeight="295" EffectiveSize="252,287" ID="a0516def-4321-46fa-88b8-46669e4c6da7" Anchor="Left" IsAutoHidden="true">
+                <DockableContent Name="DockingManagerPropertiesHost" FloatingWindowSize="519,426" ChildIndex="0" Width="206" Height="287" Anchor="Right" State="Docked" />
+                <DockableContent Name="Content2" FloatingWindowSize="519,426" ChildIndex="0" Width="206" Height="287" Anchor="Right" State="Docked" />
+            </DockablePane>
+            <DocumentPaneResizingPanel ResizeWidth="0.572815533980582*" ResizeHeight="*" EffectiveSize="359,287" Orientation="Vertical">
+                <DocumentPaneResizingPanel ResizeWidth="*" ResizeHeight="*" EffectiveSize="359,287" Orientation="Horizontal">
+                    <DocumentPane IsMain="true">
+                        <DocumentContent Name="Doc3" />
+                        <DocumentContent Name="Doc1" />
+                        <DocumentContent Name="Doc2" />
+                    </DocumentPane>
+                    <DocumentPane>
+                        <DocumentContent Name="Doc4" />
+                    </DocumentPane>
+                </DocumentPaneResizingPanel>
+            </DocumentPaneResizingPanel>
+            <DockablePane ResizeWidth="365" ResizeHeight="287" EffectiveSize="365,287" ID="236ffec6-4732-418b-bdec-6009e83b0e07" Anchor="Right" IsAutoHidden="false">
+                <DockableContent Name="Content3" FloatingWindowSize="519,426" ChildIndex="4" Width="730" Height="287" Anchor="None" State="Document" />
+            </DockablePane>
+        </ResizingPanel>
+    </ResizingPanel>
+    <Hidden />
+    <Windows />
+</DockingManager>

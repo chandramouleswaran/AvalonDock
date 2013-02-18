@@ -1,0 +1,28 @@
+﻿<Window x:Class="AvalonDockTest.Window2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ad="clr-namespace:AvalonDock;assembly=AvalonDock"
+    Title="Window1" Height="600" Width="600">
+	<Grid>
+		<ad:DockingManager x:Name="dockManager">
+			<ad:ResizingPanel Orientation="Vertical">
+				<ad:ResizingPanel Orientation="Horizontal">
+					<ad:DocumentPane x:Name="documentsHost">
+						<ad:DocumentContent Title="File1.doc">
+							<RichTextBox/>
+						</ad:DocumentContent>
+						<ad:DocumentContent Title="File2.doc">
+							<RichTextBox/>
+						</ad:DocumentContent>
+					</ad:DocumentPane>
+				</ad:ResizingPanel>
+				<ad:DockablePane ad:ResizingPanel.ResizeHeight="200">
+					<ad:DockableContent Title="TextBox2">
+						<TextBox />
+					</ad:DockableContent>
+				</ad:DockablePane>
+			</ad:ResizingPanel>
+		</ad:DockingManager>
+	</Grid>
+</Window>
+

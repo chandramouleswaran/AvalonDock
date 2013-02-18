@@ -1,0 +1,50 @@
+﻿<Window x:Class="Sample5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ad="clr-namespace:AvalonDock;assembly=AvalonDock"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Menu >
+            <MenuItem Header="_View" >
+                <MenuItem Header="Tools" Click="Tools_Click">
+                </MenuItem>
+                <MenuItem Header="Project Explorer" Click="ProjectExplorer_Click">
+                </MenuItem>
+                <MenuItem Header="Properties Window" Click="PropertiesWindow_Click">
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <ad:DockingManager x:Name="dockManager" Grid.Row="1">
+            <ad:ResizingPanel Orientation="Vertical">
+                <ad:ResizingPanel Orientation="Horizontal">
+                    <ad:ResizingPanel ad:ResizingPanel.ResizeWidth="200" Orientation="Vertical">
+                        <ad:DockablePane ad:ResizingPanel.ResizeWidth="200" >
+                            <ad:DockableContent x:Name="dcTools" Title="Tools">
+                                <TextBox/>
+                            </ad:DockableContent>
+                        </ad:DockablePane>
+                    </ad:ResizingPanel>
+                    <ad:DocumentPane Name="DPWorkArea">
+                        <ad:DocumentContent Title="Test"/>
+                    </ad:DocumentPane>
+                    <ad:ResizingPanel Orientation="Vertical" ad:ResizingPanel.ResizeWidth="200">
+                        <ad:DockablePane >
+                            <ad:DockableContent x:Name="dcProjectExplore" Title="Project Explorer" >
+                                <TextBox/>
+                            </ad:DockableContent>
+                        </ad:DockablePane>
+                        <ad:DockablePane>
+                            <ad:DockableContent x:Name="dcPropertiesWindow" Title="Properties" >
+                                <TextBox/>
+                            </ad:DockableContent>
+                        </ad:DockablePane>
+                    </ad:ResizingPanel>
+                </ad:ResizingPanel>
+            </ad:ResizingPanel>
+        </ad:DockingManager>
+    </Grid>
+</Window>

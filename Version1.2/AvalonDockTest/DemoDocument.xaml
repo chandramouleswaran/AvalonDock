@@ -1,0 +1,35 @@
+﻿<ad:DocumentContent x:Class="AvalonDockTest.DemoDocument"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ad="clr-namespace:AvalonDock;assembly=AvalonDock"
+    xmlns:local="clr-namespace:AvalonDockTest"
+    Foreground="Green" Background="AliceBlue"  IsLocked="True" IsFloatingAllowed="True" Width="637" Height="378" Loaded="DocumentContent_Loaded" >
+    <ad:DocumentContent.CommandBindings>
+        <CommandBinding Command="{x:Static local:DemoDocument.ViewCommand}" CanExecute="CommandBinding_CanExecute" Executed="CommandBinding_Executed"/>
+    </ad:DocumentContent.CommandBindings>
+        <FlowDocumentReader>
+        <FlowDocumentReader.ContextMenu>
+            <ContextMenu>
+                <MenuItem Header="Click me" Command="{x:Static local:DemoDocument.ViewCommand}"/>
+				<MenuItem Header="Close me" Click="bntClose_Click" />
+            </ContextMenu>
+        </FlowDocumentReader.ContextMenu>
+            <FlowDocument>
+                <Paragraph>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris vulputate luctus lorem. Phasellus dignissim mi eget augue. Pellentesque bibendum nulla ut lectus. Sed imperdiet. Pellentesque faucibus fringilla nisl. Nam accumsan justo eu pede. Quisque ullamcorper turpis id metus. Sed nulla. Integer lobortis nunc ut lorem. Donec augue nisl, mattis vel, tempus in, rhoncus sagittis, lacus. Nam elit nulla, condimentum et, suscipit quis, mollis id, elit. 
+                </Paragraph>
+                <Paragraph>
+                Nam nulla. Morbi fringilla tortor id mi. Maecenas nisi ante, viverra eget, commodo et, elementum vitae, elit. Fusce condimentum nulla in leo. Nulla nisi turpis, placerat eu, blandit quis, ornare ut, nulla. Aenean augue erat, faucibus eu, varius eget, interdum posuere, nisl. Nullam sed justo vel urna venenatis semper. Vivamus nec enim quis orci scelerisque dictum. Nulla facilisi. Fusce massa. Curabitur vestibulum lectus id justo. In aliquam lacus a sapien. Donec id sem eleifend mauris bibendum pellentesque. Nam velit felis, varius hendrerit, aliquet eu, congue suscipit, urna. Integer congue. 
+                </Paragraph>
+                <Paragraph>
+                Cras id odio. Nunc lobortis nisi ut dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed varius odio a nibh. Suspendisse potenti. Suspendisse potenti. Vestibulum eu nisl. Pellentesque mollis luctus risus. In a enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce augue eros, dictum at, eleifend ac, pretium in, arcu. Nunc porttitor tempus elit. 
+                </Paragraph>
+                <Paragraph>
+                Proin sit amet metus ac tortor cursus egestas. Phasellus blandit ante vel enim. Aenean fringilla felis condimentum purus. Donec vel arcu. Aenean erat. Etiam vitae ligula id dolor porttitor tincidunt. Integer lacus. Nam ultrices feugiat urna. Proin vulputate diam eu nunc. Fusce porttitor pulvinar erat. Nunc tincidunt, diam ut pharetra volutpat, nibh massa posuere ipsum, in vehicula orci sapien quis tellus. Aliquam convallis. Curabitur imperdiet tellus a magna. Suspendisse potenti. Etiam sagittis molestie lorem. Donec non dui. Sed vel arcu vitae libero ultricies porta. 
+                </Paragraph>
+                <Paragraph>
+                Integer vulputate scelerisque eros. Nullam neque purus, sagittis ac, cursus nec, placerat ac, diam. Fusce sollicitudin imperdiet urna. Donec sit amet metus sit amet purus posuere feugiat. Aenean sollicitudin nunc eu erat. Morbi elit lorem, sodales sed, laoreet condimentum, lobortis et, tellus. Integer condimentum ipsum vel mi. Mauris tristique, ipsum viverra ornare mollis, lorem eros commodo leo, vitae commodo mi leo ac mauris. Phasellus tincidunt aliquet leo. Pellentesque porttitor, massa non rutrum condimentum, orci leo tincidunt est, vel facilisis nulla pede in nunc. Suspendisse ut tortor at ipsum ultrices eleifend. In porttitor magna elementum magna. Donec pharetra diam vitae ligula viverra dapibus. Aenean feugiat, urna et iaculis tempus, enim tortor semper metus, eu posuere urna mauris a lacus. Cras mauris eros, feugiat id, cursus at, tempor elementum, arcu. Fusce in quam quis sapien varius accumsan. Aliquam vulputate dictum nibh. Nullam vulputate nisi. Donec sit amet diam ut tellus pellentesque rutrum. Suspendisse sem purus, ullamcorper at, fermentum volutpat, lacinia vitae, nisl.
+                </Paragraph>
+            </FlowDocument>
+         </FlowDocumentReader>
+</ad:DocumentContent>

@@ -1,0 +1,42 @@
+<Wix xmlns="http://schemas.microsoft.com/wix/2003/01/wi">
+  <Fragment>
+    <DirectoryRef Id="TARGETDIR">
+      <Directory Id="directory0" Name="AVALON_2" LongName="AvalonDockTest">
+        <Component Id="component0" DiskId="1">
+          <File Id="file0" Name="APP_1.XAM" LongName="App.xaml" src="{$(var.AvalonDockTest.ProjectDir)\App.xaml" />
+          <File Id="file1" Name="APPXAM_1.CS" LongName="App.xaml.cs" src="$(var.AvalonDockTest.ProjectDir)\App.xaml.cs" />
+          <File Id="file2" Name="AVALON_1.CSP" LongName="AvalonDockTest.csproj" src="$(var.AvalonDockTest.ProjectDir)\AvalonDockTest.csproj" />
+          <File Id="file3" Name="DEMO_1.XAM" LongName="Demo.xaml" src="$(var.AvalonDockTest.ProjectDir)\Demo.xaml" />
+          <File Id="file4" Name="DEMOXA_1.CS" LongName="Demo.xaml.cs" src="$(var.AvalonDockTest.ProjectDir)\Demo.xaml.cs" />
+          <File Id="file5" Name="DEMODO_1.XAM" LongName="DemoDocument.xaml" src="$(var.AvalonDockTest.ProjectDir)\DemoDocument.xaml" />
+          <File Id="file6" Name="DEMODO_1.CS" LongName="DemoDocument.xaml.cs" src="$(var.AvalonDockTest.ProjectDir)\DemoDocument.xaml.cs" />
+          <File Id="file7" Name="WINDOW_1.XAM" LongName="Window1.xaml" src="$(var.AvalonDockTest.ProjectDir)\Window1.xaml" />
+          <File Id="file8" Name="WINDOW_1.CS" LongName="Window1.xaml.cs" src="$(var.AvalonDockTest.ProjectDir)\Window1.xaml.cs" />
+          <File Id="file9" Name="WINDOW_2.XAM" LongName="Window2.xaml" src="$(var.AvalonDockTest.ProjectDir)\Window2.xaml" />
+          <File Id="file10" Name="WINDOW_2.CS" LongName="Window2.xaml.cs" src="$(var.AvalonDockTest.ProjectDir)\Window2.xaml.cs" />
+          <File Id="file11" Name="WINDOW_3.XAM" LongName="Window3.xaml" src="$(var.AvalonDockTest.ProjectDir)\Window3.xaml" />
+          <File Id="file12" Name="WINDOW_3.CS" LongName="Window3.xaml.cs" src="$(var.AvalonDockTest.ProjectDir)\Window3.xaml.cs" />
+        </Component>
+        <Directory Id="directory4" Name="Images">
+          <Component Id="component3" DiskId="1">
+            <File Id="file24" Name="database.png" src="$(var.AvalonDockTest.ProjectDir)\Images\database.png" />
+            <File Id="file25" Name="date.png" src="$(var.AvalonDockTest.ProjectDir)\Images\date.png" />
+            <File Id="file26" Name="demo.png" src="$(var.AvalonDockTest.ProjectDir)\Images\demo.png" />
+            <File Id="file27" Name="display.png" src="$(var.AvalonDockTest.ProjectDir)\Images\display.png" />
+            <File Id="file28" Name="FILE-M_1.PNG" LongName="file-manager.png" src="$(var.AvalonDockTest.ProjectDir)\Images\file-manager.png" />
+            <File Id="file29" Name="Thumbs.db" src="$(var.AvalonDockTest.ProjectDir)\Images\Thumbs.db" />
+          </Component>
+        </Directory>
+        <Directory Id="directory11" Name="PROPER_1" LongName="Properties">
+          <Component Id="component9" DiskId="1">
+            <File Id="file72" Name="ASSEMB_1.CS" LongName="AssemblyInfo.cs" src="$(var.AvalonDockTest.ProjectDir)\Properties\AssemblyInfo.cs" />
+            <File Id="file73" Name="RESOUR_1.CS" LongName="Resources.Designer.cs" src="$(var.AvalonDockTest.ProjectDir)\Properties\Resources.Designer.cs" />
+            <File Id="file74" Name="RESOUR_1.RES" LongName="Resources.resx" src="$(var.AvalonDockTest.ProjectDir)\Properties\Resources.resx" />
+            <File Id="file75" Name="SETTIN_1.CS" LongName="Settings.Designer.cs" src="$(var.AvalonDockTest.ProjectDir)\Properties\Settings.Designer.cs" />
+            <File Id="file76" Name="SETTIN_1.SET" LongName="Settings.settings" src="$(var.AvalonDockTest.ProjectDir)\Properties\Settings.settings" />
+          </Component>
+        </Directory>
+      </Directory>
+    </DirectoryRef>
+  </Fragment>
+</Wix>

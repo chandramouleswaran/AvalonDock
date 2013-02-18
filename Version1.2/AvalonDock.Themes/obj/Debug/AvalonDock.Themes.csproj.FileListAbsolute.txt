@@ -1,0 +1,12 @@
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock.Themes\bin\Debug\AvalonDock.Themes.dll
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock.Themes\bin\Debug\AvalonDock.Themes.pdb
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock.Themes\bin\Debug\AvalonDock.dll
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock.Themes\bin\Debug\AvalonDock.pdb
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock.Themes\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock.Themes\obj\Debug\AvalonDock.Themes.Properties.Resources.resources
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock.Themes\obj\Debug\AvalonDock.Themes.csproj.GenerateResource.Cache
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock.Themes\obj\Debug\AvalonDock.Themes.dll
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock.Themes\obj\Debug\AvalonDock.Themes.pdb
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock.Themes\obj\Debug\Express.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock.Themes\obj\Debug\AvalonDock.Themes_MarkupCompile.cache
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDock.Themes\obj\Debug\AvalonDock.Themes.g.resources

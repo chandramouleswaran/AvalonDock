@@ -1,0 +1,146 @@
+﻿<Window x:Class="AvalonDock.DemoApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      
+        mc:Ignorable="d" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+
+        xmlns:ad="clr-namespace:AvalonDock;assembly=AvalonDock"
+        xmlns:local="clr-namespace:AvalonDock.DemoApp"
+        
+        Title="AvalonDock Demo Application" Height="393" Width="754" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="32"/>
+            <RowDefinition/>
+            <RowDefinition Height="32"/>
+        </Grid.RowDefinitions>
+        <!-- Toolbar -->
+        <Menu>
+            <MenuItem Header="Dockable Contents">
+                <MenuItem Header="Show" 
+                          ItemsSource="{Binding DockableContents, ElementName=DockManager}" 
+                          Click="OnShowDockableContent">
+                    <MenuItem.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Title}"/>
+                        </DataTemplate>
+                    </MenuItem.ItemTemplate>
+                </MenuItem>
+                <Separator/>
+                <MenuItem Header="Create New" Click="OnCreateNewDockableContent"/>
+                <MenuItem Header="Create New Floating" Click="OnCreateNewDockableContent"/>
+            </MenuItem>
+            <MenuItem Header="Document Contents">
+                <MenuItem Header="Show" 
+                          ItemsSource="{Binding Documents, ElementName=DockManager}"
+                          Click="OnShowDocumentContent">
+                    <MenuItem.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Title}"/>
+                        </DataTemplate>
+                    </MenuItem.ItemTemplate>
+                </MenuItem>
+                <Separator/>
+                <MenuItem Header="Create New" Click="OnCreateNewDocumentContent"/>
+            </MenuItem>
+            <MenuItem Header="Layout">
+                <MenuItem Header="Save To ->">
+                    <MenuItem Header="Layout1" Click="SaveToLayoutFile"/>
+                    <MenuItem Header="Layout2" Click="SaveToLayoutFile"/>
+                    <MenuItem Header="Layout3" Click="SaveToLayoutFile"/>
+                    <MenuItem Header="Layout4" Click="SaveToLayoutFile"/>
+                </MenuItem>
+                <MenuItem Header="Restore From ->">
+                    <MenuItem Header="Layout1" Click="RestoreFromLayoutFile"/>
+                    <MenuItem Header="Layout2" Click="RestoreFromLayoutFile"/>
+                    <MenuItem Header="Layout3" Click="RestoreFromLayoutFile"/>
+                    <MenuItem Header="Layout4" Click="RestoreFromLayoutFile"/>
+                </MenuItem>                
+                <MenuItem Header="Save to text" Click="ExportLayoutToDocument"/>
+                <MenuItem Header="Load from text" Click="ImportLayoutFromDocument"/>
+                <MenuItem Header="Reset Content" Click="ResetContent"/>
+            </MenuItem>
+            <MenuItem Header="Themes">
+                <MenuItem Header="Aero.NormalColor" Tag="aero.normalcolor" Click="ChangeStandardTheme"/>
+                <MenuItem Header="Classic" Tag="classic" Click="ChangeStandardTheme"/>
+                <MenuItem Header="Luna.Normalcolor" Tag="luna.normalcolor" Click="ChangeStandardTheme"/>
+                <MenuItem Header="Generic" Tag="generic" Click="ChangeStandardTheme"/>
+                <Separator/>
+                <MenuItem Header="Dev 2010" Tag="/AvalonDock.Themes;component/themes/dev2010.xaml" Click="ChangeCustomTheme"/>
+                <MenuItem Header="Expression Dark" Tag="/AvalonDock.Themes;component/themes/ExpressionDark.xaml" Click="ChangeCustomTheme"/>
+                
+                <Separator/>
+                <MenuItem Header="Default" Click="SetDefaultTheme"/>
+                <Separator/>
+                <MenuItem Header="Colors">
+                    <MenuItem Header="Green" Click="ChangeColor"/>
+                    <MenuItem Header="Orange" Click="ChangeColor"/>
+                    <MenuItem Header="Gray" Click="ChangeColor"/>
+                    <MenuItem Header="Yellow" Click="ChangeColor"/>
+                </MenuItem>
+            </MenuItem>        
+        </Menu>
+        
+        <!--Docking Manager AvalonDock-->
+        <ad:DockingManager x:Name="DockManager" IsAnimationEnabled="True" Grid.Row="1" Margin="0,4,0,0" Loaded="DockManager_Loaded"
+                     ActiveContent="{Binding ElementName=Content1}" DocumentClosing="DockManager_DocumentClosing" >
+            <ad:DockingManager.LayoutTransform>
+                <ScaleTransform
+                    ScaleX="{Binding Value, ElementName=zoomSlider}"
+                    ScaleY="{Binding Value, ElementName=zoomSlider}"/>
+            </ad:DockingManager.LayoutTransform>
+            <ad:ResizingPanel Orientation="Horizontal">
+                <ad:ResizingPanel ad:ResizingPanel.ResizeWidth="0.5*" Orientation="Vertical">
+                    <ad:DockablePane SelectedIndex="1">
+                        <local:SampleDockableContent x:Name="Content1" Title="Content1" IsCloseable="False" Icon="Images\database.png"/>
+                        <local:SampleDockableContent x:Name="Content2" Title="Content2" Icon="Images\database.png"/>
+                        <local:SampleDockableContent x:Name="Content3" Title="Content3" Icon="Images\database.png"/>
+                    </ad:DockablePane>
+                    <ad:DockablePane >
+                        <local:SampleDockableContent x:Name="Content4" Title="Content4" Icon="Images\database.png"/>
+                        <ad:DockableContent x:Name="DockingManagerPropertiesHost" Title="DockingManager Properties"></ad:DockableContent>
+                        <ad:DockableContent x:Name="NestedDockingManager" Title="NestedDockingManager">
+                            <ad:DockingManager>
+                                <ad:ResizingPanel Orientation="Horizontal">
+                                    <ad:DockablePane ad:ResizingPanel.ResizeWidth="100">
+                                        <local:SampleDockableContent x:Name="InnerContent1" Title="InnerContent1"/>
+                                    </ad:DockablePane>
+                                    <ad:DocumentPane>
+                                        <ad:DocumentContent x:Name="InnerDoc1" Title="InnerDoc1"/>
+                                    </ad:DocumentPane>
+                                </ad:ResizingPanel>
+                            </ad:DockingManager>
+                        </ad:DockableContent>
+                    </ad:DockablePane>
+                </ad:ResizingPanel>
+                <ad:DocumentPane x:Name="DocumentHost">
+                    <ad:DocumentContent Name ="Doc1" IsFloatingAllowed="False" IsLocked="True" Title="Doc1" Icon="Images\file-manager.png">
+                        <TextBox AcceptsReturn="True" HorizontalScrollBarVisibility="Auto"  VerticalScrollBarVisibility="Auto" AcceptsTab="True"/>
+                    </ad:DocumentContent>
+                    <ad:DocumentContent  Name ="Doc2" Title="Doc2">
+                        <TextBox/>
+                    </ad:DocumentContent>
+                    <ad:DocumentContent  Name ="Doc3" Title="Doc3">
+                        <TextBox/>
+                    </ad:DocumentContent>
+                    <ad:DocumentContent  Name ="Doc4" Title="Doc4">
+                        <TextBox/>
+                    </ad:DocumentContent>
+                </ad:DocumentPane>                
+            </ad:ResizingPanel>
+        </ad:DockingManager>
+        
+        <!-- Status Bar -->
+        <StatusBar Grid.Row="2">
+            <StatusBarItem>
+                <StackPanel Orientation="Horizontal" >
+                    <TextBlock Text="A" VerticalAlignment="Center"/>
+                    <Slider x:Name="zoomSlider" VerticalAlignment="Center" Value="1" IsSnapToTickEnabled="True" TickFrequency="0.2" TickPlacement="Both" Minimum="0.5" Maximum="3" SmallChange="0.5" LargeChange="0.5" Width="100"/>
+                    <TextBlock Text="A" FontSize="20" VerticalAlignment="Center"/>
+                </StackPanel>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>

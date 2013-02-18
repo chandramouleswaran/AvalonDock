@@ -1,0 +1,57 @@
+﻿<Window x:Class="AvalonDockTest.Window5"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Window5" Height="300" Width="300"
+    xmlns:ad="clr-namespace:AvalonDock;assembly=AvalonDock">
+	<DockPanel LastChildFill="True">
+		<DockPanel.LayoutTransform>
+			<ScaleTransform ScaleX="1" ScaleY="1"/>
+		</DockPanel.LayoutTransform>
+		<Menu DockPanel.Dock="Top" >
+			<MenuItem Header="File">
+				<MenuItem x:Name="mnuFlipContent" Header="Flip Content" IsCheckable="True" Click="ShowDockingManager_Click" />
+			</MenuItem>
+		</Menu>
+		<ContentControl x:Name="TestContainer">
+			<ad:DockingManager x:Name="_dockingManager" Loaded="_dockingManager_Loaded">
+				<ad:ResizingPanel Orientation="Vertical">
+					<ad:ResizingPanel Orientation="Horizontal">
+						<ad:DockablePane ad:ResizingPanel.ResizeHeight="*">
+							<ad:DockableContent x:Name="content1">
+								<TextBox>Content1</TextBox>
+							</ad:DockableContent>
+						</ad:DockablePane>
+						<ad:DockablePane>
+							<ad:DockableContent x:Name="content2">
+								<TextBox>Content2</TextBox>
+							</ad:DockableContent>
+						</ad:DockablePane>
+						<ad:DockablePane>
+							<ad:DockableContent x:Name="content3">
+								<TextBox>Content3</TextBox>
+							</ad:DockableContent>
+						</ad:DockablePane>
+					</ad:ResizingPanel>
+					<ad:ResizingPanel Orientation="Horizontal" Width="Auto" ad:ResizingPanel.ResizeWidth="*" x:Name="bottomPanel">
+						<ad:DockablePane ad:ResizingPanel.ResizeWidth="*"  >
+							<ad:DockableContent Title="FirstWindow" Name="ShowMeFirst" Visibility="Collapsed" ad:ResizingPanel.ResizeWidth="*">
+								<TextBox>This should be visible 1st</TextBox>
+							</ad:DockableContent>
+						</ad:DockablePane>
+						<ad:DockablePane ad:ResizingPanel.ResizeWidth="*" >
+							<ad:DockableContent Title="SecondWindow" Name="ShowMeSecond" Visibility="Collapsed" ad:ResizingPanel.ResizeWidth="*" Width="Auto">
+								<TextBox>This should be visible 2nd</TextBox>
+							</ad:DockableContent>
+						</ad:DockablePane>
+						<ad:DockablePane ad:ResizingPanel.ResizeWidth="*" >
+							<ad:DockableContent Title="ThirdWindow" Name="AlsoShowMeSecond" Visibility="Collapsed" ad:ResizingPanel.ResizeWidth="*" Width="Auto">
+								<TextBox>This should be visible 2nd as well</TextBox>
+							</ad:DockableContent>
+						</ad:DockablePane>
+					</ad:ResizingPanel>
+				</ad:ResizingPanel>
+			</ad:DockingManager>
+		</ContentControl>
+	</DockPanel>
+
+</Window>

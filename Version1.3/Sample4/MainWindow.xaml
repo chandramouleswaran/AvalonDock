@@ -1,0 +1,67 @@
+﻿<Window x:Class="Sample4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Sample4"
+        xmlns:ad="clr-namespace:AvalonDock;assembly=AvalonDock"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="24"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Menu>
+            <MenuItem Header="Documents">
+                <MenuItem Header="List" ItemsSource="{Binding MyDocuments}">
+                    <MenuItem.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Title}"/>
+                        </DataTemplate>
+                    </MenuItem.ItemTemplate>
+                </MenuItem>
+                <MenuItem Header="Create New" Click="CreateNewDocument"/>
+                <MenuItem Header="Clear List" Click="ClearDocumentsList"/>
+            </MenuItem>
+        </Menu>
+        <ad:DockingManager x:Name="dockManager" Grid.Row="1">
+            <!--DocumentsSource="{Binding Path=MainWindow.MyDocuments, Source={x:Static local:App.Current}}"-->
+            <ad:ResizingPanel>
+                <ad:DockablePane ad:ResizingPanel.ResizeWidth="120">
+                    <ad:DockableContent Title="Presets" DefaultElement="{Binding ElementName=presetTreeView}" HideOnClose="False">
+                        <ad:DockableContent.CommandBindings>
+                            <CommandBinding Command="{x:Static local:MyCommands.TestCommand}" CanExecute="OnCanExecuteTestCommand" Executed="OnExecutedTestCommand"/>
+                        </ad:DockableContent.CommandBindings>
+                        <TreeView x:Name="presetTreeView" Grid.Row="1" >
+                            <TreeViewItem Header="Hello" />
+                            <TreeViewItem Header="All People" ItemsSource="{Binding Path=MainWindow.People, Source={x:Static local:App.Current}}"
+                                      IsExpanded="True">
+                                <TreeViewItem.ItemTemplate>
+                                    <HierarchicalDataTemplate ItemsSource="{Binding Subordinates}">
+                                        <TextBlock Text="{Binding Name}">
+                                            <TextBlock.ContextMenu>
+                                                <ContextMenu>
+                                                    <MenuItem Command="{x:Static local:MyCommands.TestCommand}"/>
+                                                </ContextMenu>
+                                            </TextBlock.ContextMenu>
+                                        </TextBlock>
+                                    </HierarchicalDataTemplate>
+                                </TreeViewItem.ItemTemplate>
+                            </TreeViewItem>
+                        </TreeView>
+                    </ad:DockableContent>
+                    <ad:DockableContent  Title="Documents" HideOnClose="False">
+                        <Border>
+                            <ListBox ItemsSource="{Binding Path=MainWindow.MyDocuments, Source={x:Static local:App.Current}}" x:Name="listOfDocuments">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Title}"/>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                        </Border>
+                    </ad:DockableContent>
+                </ad:DockablePane>
+                <ad:DocumentPane/>              
+            </ad:ResizingPanel>
+        </ad:DockingManager>
+    </Grid>
+</Window>

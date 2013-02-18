@@ -1,0 +1,6 @@
+The following files may be redistributed with integrated applications.
+
+...\Program Files\Microsoft Visual Studio 2008 SDK\VisualStudioIntegration\Redistributables\BabelPackage.exe
+...\Program Files\Microsoft Visual Studio 2008 SDK\VisualStudioIntegration\Redistributables\HTML_Help_Registration__RTL_X86_---.msm
+...\Program Files\Microsoft Visual Studio 2008 SDK\VisualStudioIntegration\Redistributables\TbxCtrlsInstDefaultItemsCA.msm
+...\Program Files\Microsoft Visual Studio 2008 SDK\VisualStudioIntegration\Redistributables\VSIPCC_Collection_Files_RTL_---_---.msm

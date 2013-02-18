@@ -1,0 +1,22 @@
+﻿<Window x:Class="AvalonDockTest.Window3"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:ad="clr-namespace:AvalonDock;assembly=AvalonDock"
+    Title="AvalonDockTest3" Height="500" Width="500">
+    <Grid>
+        <ad:DockingManager x:Name="_dockManager">
+            <ad:ResizingPanel Orientation="Horizontal">
+                <ad:ResizingPanel Orientation="Vertical">
+                    <ad:DockablePane >
+                        <ad:DockableContent x:Name="UpperContent" Title="Upper Content"/>
+                    </ad:DockablePane>
+                    <ad:DockablePane >
+                        <ad:DockableContent x:Name="LowerContent" Title="Lower Content"/>
+                    </ad:DockablePane>
+                </ad:ResizingPanel>
+                <ad:DocumentPane Visibility="Visible"/>
+            </ad:ResizingPanel>
+        </ad:DockingManager>
+
+    </Grid>
+</Window>

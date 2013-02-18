@@ -1,0 +1,31 @@
+﻿<Window x:Class="AvalonDock.DemoApp.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:aDock="clr-namespace:AvalonDock;assembly=AvalonDock"
+        Title="Window1" Height="433" Width="625">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="24"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Menu>
+            <MenuItem Header="Show Message Pane" Click="MenuItem_Click"/>
+        </Menu>
+        <aDock:DockingManager x:Name="dockManager" Grid.Row="1" IsAnimationEnabled="True">
+            <aDock:ResizingPanel  Orientation="Vertical" >
+                <aDock:ResizingPanel x:Name="resizeScenarioPanel"  Orientation="Horizontal" >
+                    <aDock:DocumentPane x:Name="scenarioDocumentPane">
+
+                    </aDock:DocumentPane>
+                </aDock:ResizingPanel>
+                <aDock:DockablePane x:Name="messagesDockPane" aDock:ResizingPanel.ResizeHeight="150" >
+
+                    <aDock:DockableContent x:Name="messagesPane" aDock:ResizingPanel.ResizeHeight="150" Title="Messages" >
+                        <TextBox  Name="txtMessages" IsReadOnly="True" VerticalScrollBarVisibility="Auto" />
+                    </aDock:DockableContent>
+                </aDock:DockablePane>
+            </aDock:ResizingPanel>
+        </aDock:DockingManager>
+
+    </Grid>
+</Window>

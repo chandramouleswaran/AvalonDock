@@ -1,0 +1,18 @@
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockSetup\bin\Debug\AvalonDockSetup.msi
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockSetup\bin\Debug\AvalonDockSetup.wixpdb
+obj\Debug\Product.wixobj
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockSetup\bin\Release\AvalonDockSetup.msi
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockSetup\bin\Release\AvalonDockSetup.wixpdb
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockSetup\bin\Debug\AvalonDockSetup.msi
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockSetup\bin\Debug\AvalonDockSetup.wixpdb
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockSetup\bin\Debug\\AvalonDockSetup.msi
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockSetup\bin\Debug\\AvalonDockSetup.wixpdb
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockSetup\bin\Release\AvalonDockSetup.msi
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockSetup\bin\Release\AvalonDockSetup.wixpdb
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockSetup\bin\Release\\AvalonDockSetup.msi
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockSetup\bin\Release\\AvalonDockSetup.wixpdb
+obj\Release\Product.wixobj
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDockSetup\bin\Debug\AvalonDockSetup.msi
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDockSetup\bin\Debug\AvalonDockSetup.wixpdb
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDockSetup\bin\Debug\\AvalonDockSetup.msi
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock_OLD\AvalonDockSetup\bin\Debug\\AvalonDockSetup.wixpdb

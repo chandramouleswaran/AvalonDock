@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+
+  <?define ProductShortName = "AvalonDock" ?>
+  <?define ProductVersion = "1.2.2689" ?>
+  <?define ProductVersionText = "1.2 (Build 2689)" ?>
+  <?define Manufacturer = "Adolfo Marinucci" ?>
+  <?define UpgradeCode = "2A6BB7EF-1411-4104-972F-ED81CBEA73C4" ?>
+  <?define ToolboxControlsInstallerPackageGuid = "{2c298b35-07da-45f1-96a3-be55d91c8d7a}" ?>
+  <?define AssemblyFolders = "Software\Microsoft\.NETFramework\AssemblyFolders" ?>
+
+  <?define VisualStudioRegistryRoot = "Software\Microsoft\VisualStudio\9.0" ?>
+  <?define VBExpressRegistryRoot = "Software\Microsoft\VBExpress\9.0" ?>
+  <?define VCExpressRegistryRoot = "Software\Microsoft\VCExpress\9.0" ?>
+  <?define VCSExpressRegistryRoot = "Software\Microsoft\VCSExpress\9.0" ?>
+  <?define VWDExpressRegistryRoot = "Software\Microsoft\VWDExpress\9.0" ?>
+  <?define VJSExpressRegistryRoot = "Software\Microsoft\VJSExpress\9.0" ?>
+
+  <?define VisualStudioRegistryRoot80 = "Software\Microsoft\VisualStudio\8.0" ?>
+  <?define VBExpressRegistryRoot80 = "Software\Microsoft\VBExpress\8.0" ?>
+  <?define VCExpressRegistryRoot80 = "Software\Microsoft\VCExpress\8.0" ?>
+  <?define VCSExpressRegistryRoot80 = "Software\Microsoft\VCSExpress\8.0" ?>
+  <?define VWDExpressRegistryRoot80 = "Software\Microsoft\VWDExpress\8.0" ?>
+  <?define VJSExpressRegistryRoot80 = "Software\Microsoft\VJSExpress\8.0" ?>
+
+  <?define PublicKeyToken = "85a1e0ada7ec13e4" ?>
+  
+
+
+  <Product Id="b14b975d-c5bf-4691-ad13-ebc36571bc7d" 
+           Name="$(var.ProductShortName) $(var.ProductVersionText) ($(var.ProductVersion))"  Language="1033" Version="$(var.ProductVersion)" 
+           Manufacturer="$(var.Manufacturer)" UpgradeCode="$(var.UpgradeCode)">
+		<Package InstallerVersion="200" Compressed="yes" />
+
+		<Media Id="1" Cabinet="AvalonDockSetup.cab" EmbedCab="yes" />
+
+    <!-- Major upgrade -->
+    <Upgrade Id="$(var.UpgradeCode)">
+      <UpgradeVersion Minimum="$(var.ProductVersion)" OnlyDetect="yes" Property="NEWERVERSIONDETECTED" />
+      <UpgradeVersion Minimum="0.0.0" IncludeMinimum="yes" Maximum="$(var.ProductVersion)" IncludeMaximum="no" Property="OLDERVERSIONBEINGUPGRADED" />
+    </Upgrade>
+    
+    <!-- Properties -->
+    <Property Id="ALLUSERS" Value="1" />
+    <Property Id="TOOLBOXINSTALLER">
+      <RegistrySearch Id="TbxPackageKey" Root="HKLM" Key="$(var.VisualStudioRegistryRoot)\Packages\$(var.ToolboxControlsInstallerPackageGuid)" Type="raw" />
+    </Property>
+
+    <!-- Launch conditions -->
+    <Condition Message="An administrator must approve or install [ProductName]."> Privileged </Condition>
+    <Condition Message="A later version of [ProductName] is already installed."> NOT NEWERVERSIONDETECTED </Condition>
+    <Condition Message="The Toolbox Controls Installer must be installed before running this installer."> TOOLBOXINSTALLER </Condition>
+
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLLOCATION" Name="AvalonDock">
+          <Directory Id="SAMPLESDIR" Name="Samples">
+            <Directory Id="AvalonDockTest_Dir" Name="AvalonDockTest">
+              <Component Id="AvalonDockTest_Sources" DiskId="1" Guid="23C742E3-0F7C-46cd-841E-88FE6AB4BE6C">
+                <File Id="file0" Name="App.xaml" Source="$(var.AvalonDockTest.ProjectDir)App.xaml" />
+                <File Id="file1" Name="App.xaml.cs" Source="$(var.AvalonDockTest.ProjectDir)App.xaml.cs" />
+                <File Id="file2" Name="AvalonDockTest.csproj" src="$(var.AvalonDockTest.ProjectDir)AvalonDockTest.csproj" />
+                <File Id="file3" Name="Demo.xaml" src="$(var.AvalonDockTest.ProjectDir)Demo.xaml" />
+                <File Id="file4" Name="Demo.xaml.cs" src="$(var.AvalonDockTest.ProjectDir)Demo.xaml.cs" />
+                <File Id="file5" Name="DemoDocument.xaml" src="$(var.AvalonDockTest.ProjectDir)DemoDocument.xaml" />
+                <File Id="file6" Name="DemoDocument.xaml.cs" src="$(var.AvalonDockTest.ProjectDir)DemoDocument.xaml.cs" />
+                <File Id="file7" Name="Window1.xaml" src="$(var.AvalonDockTest.ProjectDir)Window1.xaml" />
+                <File Id="file8" Name="Window1.xaml.cs" src="$(var.AvalonDockTest.ProjectDir)Window1.xaml.cs" />
+                <File Id="file9" Name="Window2.xaml" src="$(var.AvalonDockTest.ProjectDir)Window2.xaml" />
+                <File Id="file10" Name="Window2.xaml.cs" src="$(var.AvalonDockTest.ProjectDir)Window2.xaml.cs" />
+                <File Id="file11" Name="Window3.xaml" src="$(var.AvalonDockTest.ProjectDir)Window3.xaml" />
+                <File Id="file12" Name="Window3.xaml.cs" src="$(var.AvalonDockTest.ProjectDir)Window3.xaml.cs" />
+                <File Id="file13" Name="Window4.xaml" src="$(var.AvalonDockTest.ProjectDir)Window4.xaml" />
+                <File Id="file14" Name="Window4.xaml.cs" src="$(var.AvalonDockTest.ProjectDir)Window4.xaml.cs" />
+                <File Id="file15" Name="Window5.xaml" src="$(var.AvalonDockTest.ProjectDir)Window5.xaml" />
+                <File Id="file16" Name="Window5.xaml.cs" src="$(var.AvalonDockTest.ProjectDir)Window5.xaml.cs" />
+                <File Id="file17" Name="EmployeeInfoCollection.cs" src="$(var.AvalonDockTest.ProjectDir)EmployeeInfoCollection.cs" />
+                <File Id="file18" Name="ErrorListContent.cs" src="$(var.AvalonDockTest.ProjectDir)ErrorListContent.cs" />
+                <File Id="file19" Name="Settings.cs" src="$(var.AvalonDockTest.ProjectDir)Settings.cs" />
+                <File Id="file20" Name="CustomContent.xaml" src="$(var.AvalonDockTest.ProjectDir)CustomContent.xaml" />
+                <File Id="file21" Name="CustomContent.xaml.cs" src="$(var.AvalonDockTest.ProjectDir)CustomContent.xaml.cs" />
+                <RemoveFolder Id="ProgramMenuDir_removal" Directory="ProgramMenuDir" On="uninstall" />
+              </Component>
+              <Directory Id="AvalonDockTest_ImagesDir" Name="Images">
+                <Component Id="AvalonDockTest_Images" DiskId="1" Guid="89D024EF-7C32-4bb5-83F8-153F227EB228">
+                  <File Id="file24" Name="database.png" src="$(var.AvalonDockTest.ProjectDir)Images\database.png" />
+                  <File Id="file25" Name="date.png" src="$(var.AvalonDockTest.ProjectDir)Images\date.png" />
+                  <File Id="file26" Name="demo.png" src="$(var.AvalonDockTest.ProjectDir)Images\demo.png" />
+                  <File Id="file27" Name="display.png" src="$(var.AvalonDockTest.ProjectDir)Images\display.png" />
+                  <File Id="file28" Name="file-manager.png" src="$(var.AvalonDockTest.ProjectDir)Images\file-manager.png" />
+                  <File Id="file29" Name="alert.png" src="$(var.AvalonDockTest.ProjectDir)Images\alert.png" />
+                </Component>
+              </Directory>
+              <Directory Id="AvalonDockTest_PropertiesDir" Name="Properties">
+                <Component Id="AvalonDockTest_Properties" DiskId="1" Guid="E7EBF4C5-2DC7-4fc7-8740-BA8B7F4E596F">
+                  <File Id="file72" Name="AssemblyInfo.cs" src="$(var.AvalonDockTest.ProjectDir)Properties\AssemblyInfo.cs" />
+                  <File Id="file73" Name="Resources.Designer.cs" src="$(var.AvalonDockTest.ProjectDir)Properties\Resources.Designer.cs" />
+                  <File Id="file74" Name="Resources.resx" src="$(var.AvalonDockTest.ProjectDir)Properties\Resources.resx" />
+                  <File Id="file75" Name="Settings.Designer.cs" src="$(var.AvalonDockTest.ProjectDir)Properties\Settings.Designer.cs" />
+                  <File Id="file76" Name="Settings.settings" src="$(var.AvalonDockTest.ProjectDir)Properties\Settings.settings" />
+                </Component>
+              </Directory>
+            </Directory>
+          </Directory>
+          
+          <Merge Id="TbxCtrlsInstDefaultItemsCA" Language="1033" SourceFile="..\..\Redistributables\TbxCtrlsInstDefaultItemsCA.msm" DiskId="1" />
+
+          <Component Id="AvalonDock_Component" Guid="3fdc9262-8e3e-4a70-b8c3-54449b649174">
+             <File Id="AvalonDock.dll" 
+                   Name="$(var.AvalonDock.TargetFileName)" Source="$(var.AvalonDock.TargetPath)"
+                   DiskId="1" KeyPath="yes" />
+          </Component>
+
+          <Component Id="AvalonDock_Documentation" Guid="DBE4BBA0-8195-40c3-AA20-0017B2977480" >
+            <File Id="Doc1"
+                  Name="AvalonDock.chm" Source="$(var.AvalonDock.ProjectDir)\doc\help\AvalonDock.chm"
+                  DiskId="1"/>
+          </Component>
+
+
+          <Component Id="AvalonDock_Registration_Component" Guid="B74650E2-08AF-4748-ABB7-293E6D3A2EDA">
+
+            <RegistryValue Root="HKLM" Key="$(var.AssemblyFolders)\AvalonDock" Value="[INSTALLLOCATION]" Type="string" />
+
+            <!--VS 2008  START -->
+
+            <!-- VisualStudio -->
+            <!-- Register with the Toolbox Controls Installer package -->
+            <Registry Root="HKLM" Key="$(var.VisualStudioRegistryRoot)\ToolboxControlsInstaller\AvalonDock, Version=$(var.ProductVersion), Culture=neutral, PublicKeyToken=$(var.PublicKeyToken)" Value="AvalonDock" Type="string">
+              <Registry Name="Codebase" Value="[#AvalonDock.dll]" Type="string" />
+              <Registry Name="WPFControls" Value="1" Type="string" />
+            </Registry>
+
+            <!-- VBExpress -->
+            <!-- Register with the Toolbox Controls Installer package -->
+            <Registry Root="HKLM" Key="$(var.VBExpressRegistryRoot)\ToolboxControlsInstaller\AvalonDock, Version=$(var.ProductVersion), Culture=neutral, PublicKeyToken=$(var.PublicKeyToken)" Value="AvalonDock" Type="string">
+              <Registry Name="Codebase" Value="[#AvalonDock.dll]" Type="string" />
+              <Registry Name="WPFControls" Value="1" Type="string" />
+            </Registry>
+
+
+
+            <!-- VCExpress -->
+            <!-- Register with the Toolbox Controls Installer package -->
+            <Registry Root="HKLM" Key="$(var.VCExpressRegistryRoot)\ToolboxControlsInstaller\AvalonDock, Version=$(var.ProductVersion), Culture=neutral, PublicKeyToken=$(var.PublicKeyToken)" Value="AvalonDock" Type="string">
+              <Registry Name="Codebase" Value="[#AvalonDock.dll]" Type="string" />
+              <Registry Name="WPFControls" Value="1" Type="string" />
+            </Registry>
+
+
+            <!-- VCSExpress -->
+            <!-- Register with the Toolbox Controls Installer package -->
+            <Registry Root="HKLM" Key="$(var.VCSExpressRegistryRoot)\ToolboxControlsInstaller\AvalonDock, Version=$(var.ProductVersion), Culture=neutral, PublicKeyToken=$(var.PublicKeyToken)" Value="AvalonDock" Type="string">
+              <Registry Name="Codebase" Value="[#AvalonDock.dll]" Type="string" />
+              <Registry Name="WPFControls" Value="1" Type="string" />
+            </Registry>
+
+
+            <!-- VWDExpress -->
+            <!-- Register with the Toolbox Controls Installer package -->
+            <Registry Root="HKLM" Key="$(var.VWDExpressRegistryRoot)\ToolboxControlsInstaller\AvalonDock, Version=$(var.ProductVersion), Culture=neutral, PublicKeyToken=$(var.PublicKeyToken)" Value="AvalonDock" Type="string">
+              <Registry Name="Codebase" Value="[#AvalonDock.dll]" Type="string" />
+              <Registry Name="WPFControls" Value="1" Type="string" />
+            </Registry>
+
+
+            <!--VS 2008  END -->
+
+
+            <!--VS 2005  START -->
+
+            <!-- VisualStudio -->
+            <!-- Register with the Toolbox Controls Installer package -->
+            <Registry Root="HKLM" Key="$(var.VisualStudioRegistryRoot80)\ToolboxControlsInstaller\AvalonDock, Version=$(var.ProductVersion), Culture=neutral, PublicKeyToken=$(var.PublicKeyToken)" Value="AvalonDock" Type="string">
+              <Registry Name="Codebase" Value="[#AvalonDock.dll]" Type="string" />
+              <Registry Name="WPFControls" Value="1" Type="string" />
+            </Registry>
+
+            <!-- VBExpress -->
+            <!-- Register with the Toolbox Controls Installer package -->
+            <Registry Root="HKLM" Key="$(var.VBExpressRegistryRoot80)\ToolboxControlsInstaller\AvalonDock, Version=$(var.ProductVersion), Culture=neutral, PublicKeyToken=$(var.PublicKeyToken)" Value="AvalonDock" Type="string">
+              <Registry Name="Codebase" Value="[#AvalonDock.dll]" Type="string" />
+              <Registry Name="WPFControls" Value="1" Type="string" />
+            </Registry>
+
+
+
+            <!-- VCExpress -->
+            <!-- Register with the Toolbox Controls Installer package -->
+            <Registry Root="HKLM" Key="$(var.VCExpressRegistryRoot80)\ToolboxControlsInstaller\AvalonDock, Version=$(var.ProductVersion), Culture=neutral, PublicKeyToken=$(var.PublicKeyToken)" Value="AvalonDock" Type="string">
+              <Registry Name="Codebase" Value="[#AvalonDock.dll]" Type="string" />
+              <Registry Name="WPFControls" Value="1" Type="string" />
+            </Registry>
+
+
+            <!-- VCSExpress -->
+            <!-- Register with the Toolbox Controls Installer package -->
+            <Registry Root="HKLM" Key="$(var.VCSExpressRegistryRoot80)\ToolboxControlsInstaller\AvalonDock, Version=$(var.ProductVersion), Culture=neutral, PublicKeyToken=$(var.PublicKeyToken)" Value="AvalonDock" Type="string">
+              <Registry Name="Codebase" Value="[#AvalonDock.dll]" Type="string" />
+              <Registry Name="WPFControls" Value="1" Type="string" />
+            </Registry>
+
+
+            <!-- VWDExpress -->
+            <!-- Register with the Toolbox Controls Installer package -->
+            <Registry Root="HKLM" Key="$(var.VWDExpressRegistryRoot80)\ToolboxControlsInstaller\AvalonDock, Version=$(var.ProductVersion), Culture=neutral, PublicKeyToken=$(var.PublicKeyToken)" Value="AvalonDock" Type="string">
+              <Registry Name="Codebase" Value="[#AvalonDock.dll]" Type="string" />
+              <Registry Name="WPFControls" Value="1" Type="string" />
+            </Registry>
+
+
+            <!--VS 2005  END -->
+
+
+          </Component>
+
+        </Directory>
+			</Directory>
+
+      <Directory Id="ProgramMenuFolder" Name="PMenu">
+        <Directory Id="ProgramMenuDir" Name='AvalonDock'/>
+
+      </Directory>
+
+      <Directory Id="DesktopFolder" Name="Desktop" />
+
+    </Directory>
+
+
+    <Feature Id="ProductFeature" Title="AvalonDockSetup" Level="1">
+      <ComponentRef Id="AvalonDock_Component" />
+      <ComponentRef Id="AvalonDock_Documentation" />
+      <ComponentRef Id="AvalonDockTest_Sources" />
+      <ComponentRef Id="AvalonDockTest_Images" />
+      <ComponentRef Id="AvalonDockTest_Properties" />
+      
+      <ComponentRef Id="AvalonDock_Registration_Component" />
+
+       <MergeRef Id="TbxCtrlsInstDefaultItemsCA" />
+
+    </Feature>
+
+    
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLLOCATION" />
+
+    <WixVariable Id="WixUILicenseRtf" Value="..\..\license.rtf" />
+
+    <!-- Sequences -->
+    <InstallExecuteSequence>
+      <RemoveExistingProducts After="InstallValidate" />
+      <InstallFinalize Sequence="7800" />
+    </InstallExecuteSequence>
+    
+    <!-- User interface -->
+    <UIRef Id="WixUI_InstallDir" />
+  </Product>
+</Wix>

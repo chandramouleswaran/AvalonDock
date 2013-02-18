@@ -1,0 +1,16 @@
+.\bin\Debug\AvalonDockTest.exe
+.\bin\Debug\AvalonDockTest.pdb
+.\bin\Debug\AvalonDock.dll
+.\bin\Debug\AvalonDock.pdb
+obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2005\Projects\AvalonDock\AvalonDockTest\obj\Debug\Window1.baml
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2005\Projects\AvalonDock\AvalonDockTest\obj\Debug\Window1.g.cs
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2005\Projects\AvalonDock\AvalonDockTest\obj\Debug\App.g.cs
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2005\Projects\AvalonDock\AvalonDockTest\obj\Debug\AvalonDockTest_MarkupCompile.cache
+obj\Debug\AvalonDockTest.g.resources
+obj\Debug\AvalonDockTest.Properties.Resources.resources
+obj\Debug\AvalonDockTest.csproj.GenerateResource.Cache
+obj\Debug\AvalonDockTest.exe
+obj\Debug\AvalonDockTest.pdb
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2005\Projects\AvalonDock\AvalonDockTest\obj\Debug\Window2.baml
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2005\Projects\AvalonDock\AvalonDockTest\obj\Debug\Window2.g.cs

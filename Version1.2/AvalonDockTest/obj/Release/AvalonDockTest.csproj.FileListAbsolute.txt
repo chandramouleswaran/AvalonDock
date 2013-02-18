@@ -1,0 +1,99 @@
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\bin\Release\AvalonDockTest.exe
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\bin\Release\AvalonDock.dll
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window1.baml
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window2.baml
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window3.baml
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window1.g.cs
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window2.g.cs
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window3.g.cs
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\App.g.cs
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\AvalonDockTest_MarkupCompile.cache
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\AvalonDockTest.g.resources
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\AvalonDockTest.Properties.Resources.resources
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\AvalonDockTest.csproj.GenerateResource.Cache
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\AvalonDockTest.exe
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\AvalonDockTest.exe
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Demo.baml
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window4.baml
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Demo.g.cs
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window4.g.cs
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\DemoDocument.baml
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\DemoDocument.g.cs
+D:\Temp\AvalonDock_Alpha\AvalonDockTest\bin\Release\AvalonDockTest.exe
+D:\Temp\AvalonDock_Alpha\AvalonDockTest\bin\Release\AvalonDock.dll
+D:\Temp\AvalonDock_Alpha\AvalonDockTest\obj\Release\ResolveAssemblyReference.cache
+D:\Temp\AvalonDock_Alpha\AvalonDockTest\obj\Release\Demo.baml
+D:\Temp\AvalonDock_Alpha\AvalonDockTest\obj\Release\DemoDocument.baml
+D:\Temp\AvalonDock_Alpha\AvalonDockTest\obj\Release\Window1.baml
+D:\Temp\AvalonDock_Alpha\AvalonDockTest\obj\Release\Window2.baml
+D:\Temp\AvalonDock_Alpha\AvalonDockTest\obj\Release\Window3.baml
+D:\Temp\AvalonDock_Alpha\AvalonDockTest\obj\Release\Window4.baml
+D:\Temp\AvalonDock_Alpha\AvalonDockTest\obj\Release\Demo.g.cs
+D:\Temp\AvalonDock_Alpha\AvalonDockTest\obj\Release\DemoDocument.g.cs
+D:\Temp\AvalonDock_Alpha\AvalonDockTest\obj\Release\Window1.g.cs
+D:\Temp\AvalonDock_Alpha\AvalonDockTest\obj\Release\Window2.g.cs
+D:\Temp\AvalonDock_Alpha\AvalonDockTest\obj\Release\Window3.g.cs
+D:\Temp\AvalonDock_Alpha\AvalonDockTest\obj\Release\Window4.g.cs
+D:\Temp\AvalonDock_Alpha\AvalonDockTest\obj\Release\App.g.cs
+D:\Temp\AvalonDock_Alpha\AvalonDockTest\obj\Release\AvalonDockTest_MarkupCompile.cache
+D:\Temp\AvalonDock_Alpha\AvalonDockTest\obj\Release\AvalonDockTest.g.resources
+D:\Temp\AvalonDock_Alpha\AvalonDockTest\obj\Release\AvalonDockTest.Properties.Resources.resources
+D:\Temp\AvalonDock_Alpha\AvalonDockTest\obj\Release\AvalonDockTest.csproj.GenerateResource.Cache
+D:\Temp\AvalonDock_Alpha\AvalonDockTest\obj\Release\AvalonDockTest.exe
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\bin\Release\AvalonDockTest.exe
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Demo.baml
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\DemoDocument.baml
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window1.baml
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window2.baml
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window3.baml
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Demo.g.cs
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\DemoDocument.g.cs
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window1.g.cs
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window2.g.cs
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window3.g.cs
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\App.g.cs
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\AvalonDockTest_MarkupCompile.cache
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\AvalonDockTest.g.resources
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\AvalonDockTest.Properties.Resources.resources
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\AvalonDockTest.csproj.GenerateResource.Cache
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\bin\Release\AvalonDock.dll
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window4.baml
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window4.g.cs
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window5.baml
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window5.g.cs
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\AvalonDockTest_MarkupCompile.lref
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window5.baml
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window5.g.cs
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\AvalonDockTest_MarkupCompile.lref
+C:\Documents and Settings\Utente\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\App.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\bin\Release\AvalonDockTest.exe
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\bin\Release\AvalonDock.dll
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\bin\Release\AvalonDock.xml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\ResolveAssemblyReference.cache
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\DemoDocument.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window1.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window2.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window3.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window4.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window5.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Demo.g.cs
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\DemoDocument.g.cs
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window1.g.cs
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window2.g.cs
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window3.g.cs
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window4.g.cs
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Window5.g.cs
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\App.g.cs
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\AvalonDockTest_MarkupCompile.cache
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\AvalonDockTest_MarkupCompile.lref
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\Demo.baml
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\AvalonDockTest.g.resources
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\AvalonDockTest.Properties.Resources.resources
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\AvalonDockTest.csproj.GenerateResource.Cache
+C:\Users\ADO\Documents\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\obj\Release\AvalonDockTest.exe
+C:\Documents and Settings\Francesco\Documenti\Visual Studio 2008\Projects\AvalonDock\AvalonDockTest\bin\Release\AvalonDock.xml

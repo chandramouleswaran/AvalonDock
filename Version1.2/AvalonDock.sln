@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvalonDock", "AvalonDock\AvalonDock.csproj", "{2FF700C2-A38A-48BD-A637-8CAFD4FE6237}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvalonDockTest", "AvalonDockTest\AvalonDockTest.csproj", "{E1EF718C-7F18-4CD7-9668-2F2B0C3C2107}"
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "AvalonDockSetup", "AvalonDockSetup\AvalonDockSetup.wixproj", "{A2190495-BBC7-468E-AEA1-6B87538C6860}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FF700C2-A38A-48BD-A637-8CAFD4FE6237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FF700C2-A38A-48BD-A637-8CAFD4FE6237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FF700C2-A38A-48BD-A637-8CAFD4FE6237}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2FF700C2-A38A-48BD-A637-8CAFD4FE6237}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2FF700C2-A38A-48BD-A637-8CAFD4FE6237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FF700C2-A38A-48BD-A637-8CAFD4FE6237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FF700C2-A38A-48BD-A637-8CAFD4FE6237}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2FF700C2-A38A-48BD-A637-8CAFD4FE6237}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E1EF718C-7F18-4CD7-9668-2F2B0C3C2107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1EF718C-7F18-4CD7-9668-2F2B0C3C2107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1EF718C-7F18-4CD7-9668-2F2B0C3C2107}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E1EF718C-7F18-4CD7-9668-2F2B0C3C2107}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E1EF718C-7F18-4CD7-9668-2F2B0C3C2107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1EF718C-7F18-4CD7-9668-2F2B0C3C2107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1EF718C-7F18-4CD7-9668-2F2B0C3C2107}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E1EF718C-7F18-4CD7-9668-2F2B0C3C2107}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A2190495-BBC7-468E-AEA1-6B87538C6860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2190495-BBC7-468E-AEA1-6B87538C6860}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{A2190495-BBC7-468E-AEA1-6B87538C6860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2190495-BBC7-468E-AEA1-6B87538C6860}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A2190495-BBC7-468E-AEA1-6B87538C6860}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
