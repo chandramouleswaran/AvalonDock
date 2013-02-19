@@ -29,6 +29,7 @@
             </MenuItem>
             <MenuItem Header="Tools">
                 <MenuItem Header="Properties" IsChecked="{Binding FileStats.IsVisible, Mode=TwoWay}" IsCheckable="True"/>
+                <MenuItem Header="SimpleStats" IsChecked="{Binding SimpleStats.IsVisible, Mode=TwoWay}" IsCheckable="True"/>
             </MenuItem>
             <MenuItem Header="Layout">
                 <MenuItem Header="Load" Command="{Binding LoadLayoutCommand, ElementName=mainWindow}"/>
@@ -42,9 +43,9 @@
                                    DocumentsSource="{Binding Files}"
                                    ActiveContent="{Binding ActiveDocument, Mode=TwoWay, Converter={StaticResource ActiveDocumentConverter}}"
                                    Grid.Row="1">
-            <!--<avalonDock:DockingManager.Theme>
-                <avalonDock:AeroTheme/>
-            </avalonDock:DockingManager.Theme>-->
+            <avalonDock:DockingManager.Theme>
+                <avalonDock:VS2012Theme/>
+            </avalonDock:DockingManager.Theme>
             <avalonDock:DockingManager.LayoutItemTemplateSelector>
                 <local:PanesTemplateSelector>
                     <local:PanesTemplateSelector.FileViewTemplate>

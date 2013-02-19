@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvalonDock", "AvalonDock\AvalonDock.csproj", "{DB81988F-E0F2-45A0-A1FD-8C37F3D35244}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvalonDock.TestApp", "AvalonDock.TestApp\AvalonDock.TestApp.csproj", "{339BC0D5-2A54-40ED-9850-7ED65182E6E1}"
@@ -19,11 +19,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvalonDock.Themes.Expressio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvalonDock.Themes.Metro", "AvalonDock.Themes.Metro\AvalonDock.Themes.Metro.csproj", "{89286EB4-B4A1-418C-839A-067B00F442D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvalonDock.Themes.VS2012", "AvalonDock.Theme.VS2012\AvalonDock.Themes.VS2012.csproj", "{4E9EACEA-4BA9-493D-A0B6-B78318D9C08F}"
+EndProject
 Global
-	GlobalSection(SubversionScc) = preSolution
-		Svn-Managed = True
-		Manager = AnkhSVN - Subversion Support for Visual Studio
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -113,6 +111,16 @@ Global
 		{89286EB4-B4A1-418C-839A-067B00F442D8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{89286EB4-B4A1-418C-839A-067B00F442D8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{89286EB4-B4A1-418C-839A-067B00F442D8}.Release|x86.ActiveCfg = Release|Any CPU
+		{4E9EACEA-4BA9-493D-A0B6-B78318D9C08F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E9EACEA-4BA9-493D-A0B6-B78318D9C08F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E9EACEA-4BA9-493D-A0B6-B78318D9C08F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4E9EACEA-4BA9-493D-A0B6-B78318D9C08F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4E9EACEA-4BA9-493D-A0B6-B78318D9C08F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4E9EACEA-4BA9-493D-A0B6-B78318D9C08F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E9EACEA-4BA9-493D-A0B6-B78318D9C08F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E9EACEA-4BA9-493D-A0B6-B78318D9C08F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4E9EACEA-4BA9-493D-A0B6-B78318D9C08F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4E9EACEA-4BA9-493D-A0B6-B78318D9C08F}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -121,5 +129,9 @@ Global
 		{AFD48591-D66C-47F3-86E7-ACE5AD3D4FE4} = {1D267DDB-F2DE-4B70-87C1-E93A0C2D73F4}
 		{339BC0D5-2A54-40ED-9850-7ED65182E6E1} = {1D267DDB-F2DE-4B70-87C1-E93A0C2D73F4}
 		{AB95D11D-7239-4F3D-88FB-278B7C8EB6DF} = {1D267DDB-F2DE-4B70-87C1-E93A0C2D73F4}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
 	EndGlobalSection
 EndGlobal

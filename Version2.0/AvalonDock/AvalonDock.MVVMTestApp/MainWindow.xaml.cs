@@ -30,7 +30,7 @@ namespace AvalonDock.MVVMTestApp
 
             this.DataContext = Workspace.This;
 
-            this.Loaded += new RoutedEventHandler(MainWindow_Loaded);
+            //this.Loaded += new RoutedEventHandler(MainWindow_Loaded);
             this.Unloaded += new RoutedEventHandler(MainWindow_Unloaded);
         }
 

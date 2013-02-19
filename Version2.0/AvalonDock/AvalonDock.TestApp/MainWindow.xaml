@@ -44,7 +44,7 @@
         
         <avalonDock:DockingManager Grid.Row="1" x:Name="dockManager" AllowMixedOrientation="True" DocumentClosing="dockManager_DocumentClosing">
             <avalonDock:DockingManager.Theme>
-                <avalonDock:MetroTheme/>
+                <avalonDock:VS2012Theme/>
             </avalonDock:DockingManager.Theme>
             <avalonDock:DockingManager.DocumentHeaderTemplate>
                 <DataTemplate>
