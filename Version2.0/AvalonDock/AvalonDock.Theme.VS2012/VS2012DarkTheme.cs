@@ -27,12 +27,12 @@ using System.Text;
 
 namespace AvalonDock.Themes
 {
-    public class VS2012Theme : Theme
+    public class VS2012DarkTheme : Theme
     {
         public override Uri GetResourceUri()
         {
             return new Uri(
-                "/AvalonDock.Themes.VS2012;component/Theme.xaml", 
+                "/AvalonDock.Themes.VS2012;component/DarkTheme.xaml", 
                 UriKind.Relative);  
         }
     }

@@ -969,6 +969,7 @@
                 <shell:WindowChrome
                     ResizeBorderThickness="10"
                     CaptionHeight="18"
+                    CornerRadius="3"
                     GlassFrameThickness="0"
                     ShowSystemMenu="False"/>
             </Setter.Value>
@@ -978,7 +979,7 @@
                 <ControlTemplate TargetType="{x:Type avalonDockControls:LayoutDocumentFloatingWindowControl}">
                     <Grid>
                         <Border x:Name="WindowBorder" 
-                                BorderThickness="1" 
+                                BorderThickness="4" 
                                 Background="{TemplateBinding Background}"
                                 BorderBrush="{TemplateBinding BorderBrush}">
                             <Grid Margin="3">
@@ -1133,6 +1134,7 @@
                 <shell:WindowChrome
                     ResizeBorderThickness="10"
                     CaptionHeight="18"
+                    CornerRadius="7"
                     GlassFrameThickness="0"/>
             </Setter.Value>
         </Setter>
@@ -1142,6 +1144,7 @@
                     <Grid>
                         <Border x:Name="WindowBorder" 
                                 Background="{TemplateBinding Background}"
+                                BorderThickness="1"
                                 BorderBrush="{DynamicResource AvalonDock_ThemeVS2012_BaseColor16}">
                             <Grid >
                                 <Grid.RowDefinitions>

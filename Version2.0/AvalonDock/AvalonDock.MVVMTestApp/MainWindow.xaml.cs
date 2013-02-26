@@ -34,22 +34,27 @@ namespace AvalonDock.MVVMTestApp
             this.Unloaded += new RoutedEventHandler(MainWindow_Unloaded);
         }
 
-        void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        void MainWindow_Loaded(object sender, RoutedEventArgs ev)
         {
             var serializer = new AvalonDock.Layout.Serialization.XmlLayoutSerializer(dockManager);
-            serializer.LayoutSerializationCallback += (s, args) =>
+            serializer.LayoutSerializationCallback += (s, e) =>
             {
-                args.Content = args.Content;
+                if (e.Model.ContentId == FileStatsViewModel.ToolContentId)
+                    e.Content = Workspace.This.FileStats;
+                else if (e.Model.ContentId == SimpleStatsViewModel.ToolContentId)
+                    e.Content = Workspace.This.SimpleStats;
+                else if (!string.IsNullOrWhiteSpace(e.Model.ContentId) && File.Exists(e.Model.ContentId))
+                    e.Content = Workspace.This.Open(e.Model.ContentId);
             };
 
-            if (File.Exists(@".\AvalonDock.config"))
-                serializer.Deserialize(@".\AvalonDock.config");
+            if (File.Exists(@".\AvalonDock.Layout.config"))
+                serializer.Deserialize(@".\AvalonDock.Layout.config");
         }
 
         void MainWindow_Unloaded(object sender, RoutedEventArgs e)
         {
             var serializer = new AvalonDock.Layout.Serialization.XmlLayoutSerializer(dockManager);
-            serializer.Serialize(@".\AvalonDock.config");
+            serializer.Serialize(@".\AvalonDock.Layout.config");
         }
 
         #region LoadLayoutCommand
@@ -83,11 +88,10 @@ namespace AvalonDock.MVVMTestApp
             //not currently loaded
             layoutSerializer.LayoutSerializationCallback += (s, e) =>
                 {
-                    //if (e.Model.ContentId == FileStatsViewModel.ToolContentId)
-                    //    e.Content = Workspace.This.FileStats;
-                    //else if (!string.IsNullOrWhiteSpace(e.Model.ContentId) &&
-                    //    File.Exists(e.Model.ContentId))
-                    //    e.Content = Workspace.This.Open(e.Model.ContentId);
+                    if (e.Model.ContentId == FileStatsViewModel.ToolContentId)
+                        e.Content = Workspace.This.FileStats;
+                    else if (!string.IsNullOrWhiteSpace(e.Model.ContentId) && File.Exists(e.Model.ContentId))
+                        e.Content = Workspace.This.Open(e.Model.ContentId);
                 };
             layoutSerializer.Deserialize(@".\AvalonDock.Layout.config");
         }

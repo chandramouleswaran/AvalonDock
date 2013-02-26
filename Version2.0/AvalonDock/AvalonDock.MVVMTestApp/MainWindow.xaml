@@ -44,7 +44,7 @@
                                    ActiveContent="{Binding ActiveDocument, Mode=TwoWay, Converter={StaticResource ActiveDocumentConverter}}"
                                    Grid.Row="1">
             <avalonDock:DockingManager.Theme>
-                <avalonDock:VS2012Theme/>
+                <avalonDock:VS2012DarkTheme/>
             </avalonDock:DockingManager.Theme>
             <avalonDock:DockingManager.LayoutItemTemplateSelector>
                 <local:PanesTemplateSelector>
