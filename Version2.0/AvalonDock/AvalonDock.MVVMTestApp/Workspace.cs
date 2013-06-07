@@ -1,4 +1,20 @@
-﻿using System;
+﻿/************************************************************************
+
+   AvalonDock
+
+   Copyright (C) 2007-2013 Xceed Software Inc.
+
+   This program is provided to you under the terms of the New BSD
+   License (BSD) as published at http://avalondock.codeplex.com/license 
+
+   For more features, controls, and fast professional support,
+   pick up AvalonDock in Extended WPF Toolkit Plus at http://xceed.com/wpf_toolkit
+
+   Stay informed: follow @datagrid on Twitter or Like facebook.com/datagrids
+
+  **********************************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +23,7 @@ using System.Windows.Input;
 using Microsoft.Win32;
 using System.IO;
 using System.Windows;
-using AvalonDock.Layout;
+using Xceed.Wpf.AvalonDock.Layout;
 
 namespace AvalonDock.MVVMTestApp
 {
@@ -15,7 +31,7 @@ namespace AvalonDock.MVVMTestApp
     {
         protected Workspace()
         { 
-        
+
         }
 
         static Workspace _this = new Workspace();
@@ -46,10 +62,7 @@ namespace AvalonDock.MVVMTestApp
             get
             {
                 if (_tools == null)
-                {
-                    _tools = new ToolViewModel[] { FileStats, SimpleStats };
-
-                }
+                    _tools = new ToolViewModel[] { FileStats };
                 return _tools;
             }
         }
@@ -63,18 +76,6 @@ namespace AvalonDock.MVVMTestApp
                     _fileStats = new FileStatsViewModel();
 
                 return _fileStats;
-            }
-        }
-
-        SimpleStatsViewModel _simpleStats = null;
-        public SimpleStatsViewModel SimpleStats
-        {
-            get
-            {
-                if (_simpleStats == null)
-                    _simpleStats = new SimpleStatsViewModel();
-
-                return _simpleStats;
             }
         }
 

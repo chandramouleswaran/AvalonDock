@@ -1,4 +1,20 @@
-﻿using System;
+﻿/************************************************************************
+
+   AvalonDock
+
+   Copyright (C) 2007-2013 Xceed Software Inc.
+
+   This program is provided to you under the terms of the New BSD
+   License (BSD) as published at http://avalondock.codeplex.com/license 
+
+   For more features, controls, and fast professional support,
+   pick up AvalonDock in Extended WPF Toolkit Plus at http://xceed.com/wpf_toolkit
+
+   Stay informed: follow @datagrid on Twitter or Like facebook.com/datagrids
+
+  **********************************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +31,7 @@ using System.Collections.ObjectModel;
 using System.Net.Sockets;
 using System.Net;
 using System.IO;
-using AvalonDock.Layout.Serialization;
+using Xceed.Wpf.AvalonDock.Layout.Serialization;
 
 namespace AvalonDock.MVVMTestApp
 {
@@ -30,31 +46,26 @@ namespace AvalonDock.MVVMTestApp
 
             this.DataContext = Workspace.This;
 
-            //this.Loaded += new RoutedEventHandler(MainWindow_Loaded);
+            this.Loaded += new RoutedEventHandler(MainWindow_Loaded);
             this.Unloaded += new RoutedEventHandler(MainWindow_Unloaded);
         }
 
-        void MainWindow_Loaded(object sender, RoutedEventArgs ev)
+        void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
-            var serializer = new AvalonDock.Layout.Serialization.XmlLayoutSerializer(dockManager);
-            serializer.LayoutSerializationCallback += (s, e) =>
+          var serializer = new Xceed.Wpf.AvalonDock.Layout.Serialization.XmlLayoutSerializer( dockManager );
+            serializer.LayoutSerializationCallback += (s, args) =>
             {
-                if (e.Model.ContentId == FileStatsViewModel.ToolContentId)
-                    e.Content = Workspace.This.FileStats;
-                else if (e.Model.ContentId == SimpleStatsViewModel.ToolContentId)
-                    e.Content = Workspace.This.SimpleStats;
-                else if (!string.IsNullOrWhiteSpace(e.Model.ContentId) && File.Exists(e.Model.ContentId))
-                    e.Content = Workspace.This.Open(e.Model.ContentId);
+                args.Content = args.Content;
             };
 
-            if (File.Exists(@".\AvalonDock.Layout.config"))
-                serializer.Deserialize(@".\AvalonDock.Layout.config");
+            if (File.Exists(@".\AvalonDock.config"))
+                serializer.Deserialize(@".\AvalonDock.config");
         }
 
         void MainWindow_Unloaded(object sender, RoutedEventArgs e)
         {
-            var serializer = new AvalonDock.Layout.Serialization.XmlLayoutSerializer(dockManager);
-            serializer.Serialize(@".\AvalonDock.Layout.config");
+          var serializer = new Xceed.Wpf.AvalonDock.Layout.Serialization.XmlLayoutSerializer( dockManager );
+            serializer.Serialize(@".\AvalonDock.config");
         }
 
         #region LoadLayoutCommand
@@ -88,10 +99,11 @@ namespace AvalonDock.MVVMTestApp
             //not currently loaded
             layoutSerializer.LayoutSerializationCallback += (s, e) =>
                 {
-                    if (e.Model.ContentId == FileStatsViewModel.ToolContentId)
-                        e.Content = Workspace.This.FileStats;
-                    else if (!string.IsNullOrWhiteSpace(e.Model.ContentId) && File.Exists(e.Model.ContentId))
-                        e.Content = Workspace.This.Open(e.Model.ContentId);
+                    //if (e.Model.ContentId == FileStatsViewModel.ToolContentId)
+                    //    e.Content = Workspace.This.FileStats;
+                    //else if (!string.IsNullOrWhiteSpace(e.Model.ContentId) &&
+                    //    File.Exists(e.Model.ContentId))
+                    //    e.Content = Workspace.This.Open(e.Model.ContentId);
                 };
             layoutSerializer.Deserialize(@".\AvalonDock.Layout.config");
         }
@@ -128,9 +140,8 @@ namespace AvalonDock.MVVMTestApp
 
         private void OnDumpToConsole(object sender, RoutedEventArgs e)
         {
-#if DEBUG
-            dockManager.Layout.ConsoleDump(0);
-#endif
+          // Uncomment when TRACE is activated on AvalonDock project
+            //dockManager.Layout.ConsoleDump(0);
         }
 
 
