@@ -1,4 +1,20 @@
-﻿using System;
+﻿/************************************************************************
+
+   AvalonDock
+
+   Copyright (C) 2007-2013 Xceed Software Inc.
+
+   This program is provided to you under the terms of the New BSD
+   License (BSD) as published at http://avalondock.codeplex.com/license 
+
+   For more features, controls, and fast professional support,
+   pick up AvalonDock in Extended WPF Toolkit Plus at http://xceed.com/wpf_toolkit
+
+   Stay informed: follow @datagrid on Twitter or Like facebook.com/datagrids
+
+  **********************************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +31,7 @@ using System.Collections.ObjectModel;
 using System.Net.Sockets;
 using System.Net;
 using System.IO;
-using AvalonDock.Layout.Serialization;
+using Xceed.Wpf.AvalonDock.Layout.Serialization;
 
 namespace AvalonDock.MVVMTestApp
 {
@@ -36,7 +52,7 @@ namespace AvalonDock.MVVMTestApp
 
         void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
-            var serializer = new AvalonDock.Layout.Serialization.XmlLayoutSerializer(dockManager);
+          var serializer = new Xceed.Wpf.AvalonDock.Layout.Serialization.XmlLayoutSerializer( dockManager );
             serializer.LayoutSerializationCallback += (s, args) =>
             {
                 args.Content = args.Content;
@@ -48,7 +64,7 @@ namespace AvalonDock.MVVMTestApp
 
         void MainWindow_Unloaded(object sender, RoutedEventArgs e)
         {
-            var serializer = new AvalonDock.Layout.Serialization.XmlLayoutSerializer(dockManager);
+          var serializer = new Xceed.Wpf.AvalonDock.Layout.Serialization.XmlLayoutSerializer( dockManager );
             serializer.Serialize(@".\AvalonDock.config");
         }
 
@@ -124,9 +140,8 @@ namespace AvalonDock.MVVMTestApp
 
         private void OnDumpToConsole(object sender, RoutedEventArgs e)
         {
-#if DEBUG
-            dockManager.Layout.ConsoleDump(0);
-#endif
+          // Uncomment when TRACE is activated on AvalonDock project
+            //dockManager.Layout.ConsoleDump(0);
         }
 
 

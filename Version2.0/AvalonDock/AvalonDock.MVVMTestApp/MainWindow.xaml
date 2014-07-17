@@ -1,12 +1,28 @@
-﻿<Window x:Class="AvalonDock.MVVMTestApp.MainWindow"
+﻿<!--***********************************************************************************
+
+   AvalonDock
+
+   Copyright (C) 2007-2013 Xceed Software Inc.
+
+   This program is provided to you under the terms of the New BSD
+   License (BSD) as published at http://avalondock.codeplex.com/license 
+
+   For more features, controls, and fast professional support,
+   pick up AvalonDock in Extended WPF Toolkit Plus at http://xceed.com/wpf_toolkit
+
+   Stay informed: follow @datagrid on Twitter or Like facebook.com/datagrids
+
+  **********************************************************************************-->
+
+<Window x:Class="AvalonDock.MVVMTestApp.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:avalonDock="http://avalondock.codeplex.com"
+        xmlns:avalonDock="http://schemas.xceed.com/wpf/xaml/avalondock"
         xmlns:shell="clr-namespace:Microsoft.Windows.Shell;assembly=AvalonDock"
         xmlns:local="clr-namespace:AvalonDock.MVVMTestApp"
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         xmlns:sysWindows="clr-namespace:System.Windows;assembly=PresentationCore"
-        x:Name="mainWindow"
+        xmlns:Themes="clr-namespace:AvalonDock.Themes;assembly=AvalonDock.Themes.VS2012" x:Name="mainWindow"
         Title="MainWindow" Height="350" Width="525">
     <Window.Resources>
         <local:ActiveDocumentConverter x:Key="ActiveDocumentConverter"/>
@@ -34,7 +50,7 @@
                 <MenuItem Header="Load" Command="{Binding LoadLayoutCommand, ElementName=mainWindow}"/>
                 <MenuItem Header="Save" Command="{Binding SaveLayoutCommand, ElementName=mainWindow}"/>
                 <MenuItem Header="Dump to Console" Click="OnDumpToConsole"/>
-                
+
             </MenuItem>
         </Menu><!--AnchorablesSource="{Binding Tools}" DocumentsSource="{Binding Files}"-->
         <avalonDock:DockingManager x:Name="dockManager" 
@@ -42,9 +58,9 @@
                                    DocumentsSource="{Binding Files}"
                                    ActiveContent="{Binding ActiveDocument, Mode=TwoWay, Converter={StaticResource ActiveDocumentConverter}}"
                                    Grid.Row="1">
-            <!--<avalonDock:DockingManager.Theme>
-                <avalonDock:AeroTheme/>
-            </avalonDock:DockingManager.Theme>-->
+            <avalonDock:DockingManager.Theme>
+                <Themes:VS2012DarkTheme/>
+            </avalonDock:DockingManager.Theme>
             <avalonDock:DockingManager.LayoutItemTemplateSelector>
                 <local:PanesTemplateSelector>
                     <local:PanesTemplateSelector.FileViewTemplate>
@@ -63,7 +79,7 @@
                     </local:PanesTemplateSelector.FileStatsViewTemplate>
                 </local:PanesTemplateSelector>
             </avalonDock:DockingManager.LayoutItemTemplateSelector>
-            
+
             <avalonDock:DockingManager.LayoutItemContainerStyleSelector>
                 <local:PanesStyleSelector>
                     <local:PanesStyleSelector.ToolStyle>
@@ -90,7 +106,7 @@
             <avalonDock:DockingManager.LayoutUpdateStrategy>
                 <local:LayoutInitializer/>
             </avalonDock:DockingManager.LayoutUpdateStrategy>
-            
+
             <avalonDock:LayoutRoot>
                 <avalonDock:LayoutPanel Orientation="Vertical">
                     <avalonDock:LayoutDocumentPane/>
