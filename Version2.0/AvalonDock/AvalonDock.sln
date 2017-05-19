@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvalonDock.MVVMTestApp", "AvalonDock.MVVMTestApp\AvalonDock.MVVMTestApp.csproj", "{AFD48591-D66C-47F3-86E7-ACE5AD3D4FE4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test Projects", "Test Projects", "{1D267DDB-F2DE-4B70-87C1-E93A0C2D73F4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvalonDock.Themes.VS2012", "AvalonDock.Theme.VS2012\AvalonDock.Themes.VS2012.csproj", "{4E9EACEA-4BA9-493D-A0B6-B78318D9C08F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,16 +27,6 @@ Global
 		{AFD48591-D66C-47F3-86E7-ACE5AD3D4FE4}.Release|Mixed Platforms.Build.0 = Release|x86
 		{AFD48591-D66C-47F3-86E7-ACE5AD3D4FE4}.Release|x86.ActiveCfg = Release|x86
 		{AFD48591-D66C-47F3-86E7-ACE5AD3D4FE4}.Release|x86.Build.0 = Release|x86
-		{4E9EACEA-4BA9-493D-A0B6-B78318D9C08F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4E9EACEA-4BA9-493D-A0B6-B78318D9C08F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4E9EACEA-4BA9-493D-A0B6-B78318D9C08F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{4E9EACEA-4BA9-493D-A0B6-B78318D9C08F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{4E9EACEA-4BA9-493D-A0B6-B78318D9C08F}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{4E9EACEA-4BA9-493D-A0B6-B78318D9C08F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4E9EACEA-4BA9-493D-A0B6-B78318D9C08F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4E9EACEA-4BA9-493D-A0B6-B78318D9C08F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{4E9EACEA-4BA9-493D-A0B6-B78318D9C08F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{4E9EACEA-4BA9-493D-A0B6-B78318D9C08F}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
