@@ -22,7 +22,7 @@
         xmlns:local="clr-namespace:AvalonDock.MVVMTestApp"
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         xmlns:sysWindows="clr-namespace:System.Windows;assembly=PresentationCore"
-        xmlns:Themes="clr-namespace:Xceed.Wpf.AvalonDock.Themes;assembly=Xceed.Wpf.AvalonDock.Themes.Windows10" x:Name="mainWindow"
+        xmlns:Themes="clr-namespace:Xceed.Wpf.AvalonDock.Themes;assembly=Xceed.Wpf.AvalonDock.Themes.Aero" x:Name="mainWindow"
         Title="MainWindow" Height="350" Width="525">
     <Window.Resources>
         <local:ActiveDocumentConverter x:Key="ActiveDocumentConverter"/>
@@ -59,7 +59,7 @@
                                    ActiveContent="{Binding ActiveDocument, Mode=TwoWay, Converter={StaticResource ActiveDocumentConverter}}"
                                    Grid.Row="1">
             <avalonDock:DockingManager.Theme>
-                <Themes:Windows10Theme/>
+                <Themes:AeroTheme/>
             </avalonDock:DockingManager.Theme>
             <avalonDock:DockingManager.LayoutItemTemplateSelector>
                 <local:PanesTemplateSelector>
