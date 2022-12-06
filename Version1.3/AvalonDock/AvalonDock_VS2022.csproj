@@ -26,6 +26,11 @@
     <PreBuildEvent />
     <AssemblyName>AvalonDock</AssemblyName>
     <RootNamespace>AvalonDock</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>AvalonDock</Title>
+    <Description>AvalonDock is a WPF controls library which can be used to create a docking layout system like that is present in VisualStudio. (This is the clone of the last commit 98289 of http://avalondock.codeplex.com) </Description>
+    <PackageProjectUrl>https://github.com/mpospisil/AvalonDock</PackageProjectUrl>
+    <Version>1.0.0</Version>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="Properties\AssemblyInfo.cs" />
