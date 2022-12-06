@@ -5,8 +5,8 @@
     <Company>Adolfo Marinucci</Company>
     <Product>AvalonDock</Product>
     <Copyright>Copyright © Adolfo Marinucci 2010</Copyright>
-    <AssemblyVersion>1.3.3600</AssemblyVersion>
-    <FileVersion>1.3.3600</FileVersion>
+    <AssemblyVersion>2.0.0</AssemblyVersion>
+    <FileVersion>2.0.0</FileVersion>
     <OutputPath>bin\$(Configuration)\</OutputPath>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
@@ -27,7 +27,7 @@
     <Title>AvalonDock</Title>
     <Description>AvalonDock is a WPF controls library which can be used to create a docking layout system like that is present in VisualStudio. (This is the clone of the last commit 98289 of http://avalondock.codeplex.com) </Description>
     <PackageProjectUrl>https://github.com/mpospisil/AvalonDock</PackageProjectUrl>
-    <Version>1.0.0</Version>
+    <Version>2.0.0</Version>
   </PropertyGroup>
   
   <ItemGroup>
