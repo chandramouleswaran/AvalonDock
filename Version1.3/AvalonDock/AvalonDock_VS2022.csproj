@@ -1,0 +1,108 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyTitle>AvalonDock</AssemblyTitle>
+    <Company>Adolfo Marinucci</Company>
+    <Product>AvalonDock</Product>
+    <Copyright>Copyright © Adolfo Marinucci 2010</Copyright>
+    <AssemblyVersion>1.3.3600</AssemblyVersion>
+    <FileVersion>1.3.3600</FileVersion>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <UseWPF>true</UseWPF>
+    <PreBuildEvent />
+    <PreBuildEvent />
+    <PreBuildEvent />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <DefineConstants>TRACE;DEBUG;NET4</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineConstants>TRACE;NET4</DefineConstants>
+    <DocumentationFile />
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="AvalonDock.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.it-IT.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.it-IT.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.de.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\DockBottom.PNG" />
+    <Resource Include="Resources\Images\DockLeft.PNG" />
+    <Resource Include="Resources\Images\DockPane.PNG" />
+    <Resource Include="Resources\Images\DockRight.PNG" />
+    <Resource Include="Resources\Images\DockTop.PNG" />
+    <Resource Include="Resources\Images\HTabGroup.png" />
+    <Resource Include="Resources\Images\Locked.png" />
+    <Resource Include="Resources\Images\PinAutoHide.png" />
+    <Resource Include="Resources\Images\PinClose.png" />
+    <Resource Include="Resources\Images\PinDocMenu.png" />
+    <Resource Include="Resources\Images\PinMenu.png" />
+    <Resource Include="Resources\Images\VTabGroup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\Aero\AeroDockBottom.png" />
+    <Resource Include="Resources\Images\Aero\AeroDockBottomHover.png" />
+    <Resource Include="Resources\Images\Aero\AeroDockLeft.png" />
+    <Resource Include="Resources\Images\Aero\AeroDockLeftHover.png" />
+    <Resource Include="Resources\Images\Aero\AeroDockPane.png" />
+    <Resource Include="Resources\Images\Aero\AeroDockPaneBottom.png" />
+    <Resource Include="Resources\Images\Aero\AeroDockPaneInto.png" />
+    <Resource Include="Resources\Images\Aero\AeroDockPaneLeft.png" />
+    <Resource Include="Resources\Images\Aero\AeroDockPaneRight.png" />
+    <Resource Include="Resources\Images\Aero\AeroDockPaneTop.png" />
+    <Resource Include="Resources\Images\Aero\AeroDockRight.png" />
+    <Resource Include="Resources\Images\Aero\AeroDockRightHover.png" />
+    <Resource Include="Resources\Images\Aero\AeroDockTop.png" />
+    <Resource Include="Resources\Images\Aero\AeroDockTopHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\Classic\PinAutoHide.png" />
+    <Resource Include="Resources\Images\Classic\PinAutoHideSelected.png" />
+    <Resource Include="Resources\Images\Classic\PinClose.png" />
+    <Resource Include="Resources\Images\Classic\PinCloseSelected.png" />
+    <Resource Include="Resources\Images\Classic\PinMenu.png" />
+    <Resource Include="Resources\Images\Classic\PinMenuSelected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+</Project>
