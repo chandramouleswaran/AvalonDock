@@ -8,6 +8,8 @@ assemblies remove the obj directories of each project (just execute ClearObjs.ba
 AvalonDock project is the main class library project. It contains all the sources of AvaloDock, plus other resources
 like default styles and images.
 
+AvalonDock_VS2022.sln is a VS2022 solution and targets .NET 4.8 ane net6.0-windows. Only the main project was ported.
+
 AvalonDock.DemoApp is an application used primarly for test, it is not exposed into the distribuited setup.
 
 AvalonDock.Themes contains two compiled themes (dev2010.xaml and ExpressionDark.xaml). It will contain more themes
