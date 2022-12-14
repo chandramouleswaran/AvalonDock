@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{657BF351-BD85-4F4C-974A-35DC8761B329}"
+	ProjectSection(SolutionItems) = preProject
+		Version1.3\ClearObjs.bat = Version1.3\ClearObjs.bat
+		Version1.3\Readme.txt = Version1.3\Readme.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvalonDock_VS2022", "Version1.3\AvalonDock\AvalonDock_VS2022.csproj", "{FC275540-F2E7-4C97-995B-46892C74EC85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC275540-F2E7-4C97-995B-46892C74EC85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC275540-F2E7-4C97-995B-46892C74EC85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC275540-F2E7-4C97-995B-46892C74EC85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC275540-F2E7-4C97-995B-46892C74EC85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B785515-FF43-4698-9D58-4594951F593B}
+	EndGlobalSection
+EndGlobal
